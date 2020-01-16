@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="160dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="35dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="105dp"
+                        android:text="@string/akor_d_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_1_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="35dp"
+                        android:text="@string/akor_d_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="75dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_2_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="35dp"
+                    android:text="@string/yok_miak_3_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="45dp"
+                        android:text="@string/akor_e"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="55dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="85dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="@string/yok_miak_4_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="35dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="115dp"
+                        android:text="@string/akor_d_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_5_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="35dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/akor_d_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="75dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="@string/yok_miak_6_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/akor_e"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="75dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="75dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="@string/yok_miak_7_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="75dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="125dp"
+                        android:text="@string/akor_d"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_8_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="35dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/akor_d_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="65dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_9_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_10_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/akor_e"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="75dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="75dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="@string/yok_miak_11_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="35dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="115dp"
+                        android:text="@string/akor_d_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="35dp"
+                    android:text="@string/yok_miak_12_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="35dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/akor_d_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="75dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="@string/yok_miak_13_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="75dp"
+                        android:text="@string/akor_e"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="105dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="@string/yok_miak_14_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="55dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_15_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="35dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="55dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="125dp"
+                        android:text="@string/akor_d_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_16_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="25dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="35dp"
+                        android:text="@string/akor_d_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="85dp"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_17_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="45dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_18_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_marginStart="35dp"
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginStart="65dp"
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/akor_e"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_marginStart="85dp"
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/akor_f"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="@string/yok_miak_19_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_marginStart="35dp"
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_20_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_marginStart="35dp"
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/yok_miak_20_lirik"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#e81fdb">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:text="@string/judul_yok_miak"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginTop="45dp"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/balik_bangka"
+        android:layout_marginTop="3dp"
+        android:layout_width="50dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_back" />
+
+</RelativeLayout>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="35dp"
+                android:background="#ffb300"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_benar2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="A"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:id="@+id/score"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="35dp"
+                android:background="#ffb300"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_salah2" />
+
+                <TextView
+                    android:id="@+id/salah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="A"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:background="@drawable/kotak_soal"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="365dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp">
+
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/question"
+                    android:layout_width="339dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="Question to answer"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:layout_width="355dp"
+                android:layout_height="45dp"
+                android:background="@drawable/jwbn_soal_panjang">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:background="#ffb300"
+                    android:textColor="#fff"
+                    android:onClick="onClick"
+                    android:id="@+id/choice1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_width="355dp"
+                android:layout_height="45dp"
+                android:background="@drawable/jwbn_soal_panjang">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B"
+                    android:background="#ffb300"
+                    android:textColor="#fff"
+                    android:onClick="onClick"
+                    android:id="@+id/choice2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_width="355dp"
+                android:layout_height="45dp"
+                android:background="@drawable/jwbn_soal_panjang">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C"
+                    android:background="#ffb300"
+                    android:textColor="#fff"
+                    android:onClick="onClick"
+                    android:id="@+id/choice3"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_width="355dp"
+                android:layout_height="45dp"
+                android:background="@drawable/jwbn_soal_panjang">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D"
+                    android:background="#ffb300"
+                    android:textColor="#fff"
+                    android:onClick="onClick"
+                    android:id="@+id/choice4"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>

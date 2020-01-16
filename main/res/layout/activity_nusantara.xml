@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nusantara"
+    android:background="#f6f6f6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/nusantara"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_marginStart="70dp"
+            android:textStyle="bold"
+            android:layout_marginTop="13dp"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="325dp"
+                    android:background="#f6f6f6"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/madenda_sunda" />
+
+                    <Button
+                        android:id="@+id/madenda"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_play"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/judul_madenda_sunda"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/penjelasan_madenda_sunda"
+                        android:textSize="15sp"/>
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="300dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/skala_penjelasan_madenda_sunda"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@drawable/customborder"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="325dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#f6f6f6"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/javanese_pelog" />
+
+                    <Button
+                        android:id="@+id/pelog_jawa"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_play"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/judul_pelog_jawa"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/penjelasan_pelog_jawa"
+                        android:textSize="15sp"/>
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="300dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/skala_penjelasan_jawa_pelog"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@drawable/customborder"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="345dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#f6f6f6"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/balinese_pelog" />
+
+                    <Button
+                        android:id="@+id/pelog_bali"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_play"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/judul_pelog_bali"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/penjelasan_pelog_bali"
+                        android:textSize="15sp"/>
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/skala_penjelasan_bali_pelog"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@drawable/customborder"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#f6f6f6"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/pelog_barang" />
+
+                    <Button
+                        android:id="@+id/mohon"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_play"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/judul_pelog_barang"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/penjelasan_pelog_barang"
+                        android:textSize="15sp"/>
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/skala_penjelasan_bali_pelog"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@drawable/customborder"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="325dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#f6f6f6"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/pelog_bem" />
+
+                    <Button
+                        android:id="@+id/tuhan"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_play"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/judul_pelog_bem"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/penjelasan_pelog_bem"
+                        android:textSize="15sp"/>
+
+                    <ImageView
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/skala_penjelasan_pelog_barang"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/baliknusantara"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_back" />
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_info"
+        android:onClick="Titit2" />
+
+</RelativeLayout>

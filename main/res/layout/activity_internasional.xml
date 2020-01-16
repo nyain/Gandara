@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Internasional"
+    android:background="#f6f6f6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimary" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/internasional"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:layout_marginStart="70dp"
+                android:textStyle="bold"
+                android:layout_marginTop="13dp"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="365dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/mayor_in_c" />
+
+                    <Button
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_play"
+                        android:id="@+id/skala_mayor"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"/>
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/judul_major"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/penjelasan_major"
+                        android:textSize="15sp" />
+
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/interval"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="@string/interval_major"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="360dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/skala_penjelasan_mayor"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@drawable/customborder"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="365dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/minor_in_a" />
+
+                    <Button
+                        android:layout_gravity="center"
+                        android:id="@+id/skala_minor"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_play" />
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/judul_minor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/penjelasan_minor"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/interval"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/interval_minor"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="360dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/skala_penjelasan_minor"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@drawable/customborder"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="345dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/major_ptx_in_c" />
+
+                    <Button
+                        android:id="@+id/skala_mayor_pentatonis"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_play" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/judul_pentatonik_major"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/penjelasan_pentatonik_major"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="320dp"
+                        android:layout_height="33dp"
+                        android:background="@drawable/skala_penjelasan_mayorptx"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@drawable/customborder"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="345dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/minor_ptx_in_a" />
+
+                    <Button
+                        android:id="@+id/skala_minor_pentatonis"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_play"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/judul_pentatonik_minor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/penjelasan_pentatonik_minor"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="320dp"
+                        android:layout_height="33dp"
+                        android:background="@drawable/skala_penjelasan_minorptx"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@drawable/customborder"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="345dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/chromatic_in_c" />
+
+                    <Button
+                        android:id="@+id/skala_kromatis"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_play"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/judul_kromatik"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="@string/penjelasan_kromatik"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="355dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/skala_penjelasan_kromatik"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/balikinternasional"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_back" />
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_info"
+        android:onClick="Titit2" />
+
+</RelativeLayout>

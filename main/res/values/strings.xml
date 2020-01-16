@@ -1,0 +1,1207 @@
+<resources>
+    <string name="app_name">Gandara</string>
+    <string name="title_activity_welcome">Gandara</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+    <string name="previous">SEBELUM</string>
+
+    <string name="slide_4_title">Gandara</string>
+    <string name="slide_4_desc">Aplikasi yang mempermudah kalian untuk menambah pengetahuan tentang musik nusantara yang dapat dimainkan oleh gitar</string>
+
+    <string name="slide_1_title">Belajar Gitar</string>
+    <string name="slide_1_desc">Gandara adalah aplikasi pembelajaran yang dilengkapi oleh audio agar belajar gitar menjadi lebih mudah</string>
+
+    <string name="slide_2_title">Kuis</string>
+    <string name="slide_2_desc">Kuis yang siap menantang kamu dalam mengasah kemampuan bermain gitar dan pengetahuan lagu nusantara</string>
+
+    <string name="slide_3_title">Chord Daerah</string>
+    <string name="slide_3_desc">Gandara menyediakan puluhan chord lagu daerah di Indonesia</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="About">About</string>
+
+    <string name="nusantara">NUSANTARA</string>
+    <string name="internasional">INTERNASIONAL</string>
+
+    <string name="cek">Cek Jawaban</string>
+    <string name="soal">Masukkan jawaban di sini</string>
+
+    <string name="akor_a">A</string>
+    <string name="akor_akres">A#</string>
+    <string name="akor_b">B</string>
+    <string name="akor_c">C</string>
+    <string name="akor_ckres">C#</string>
+    <string name="akor_d">D</string>
+    <string name="akor_dkres">D#</string>
+    <string name="akor_e">E</string>
+    <string name="akor_f">F</string>
+    <string name="akor_fkres">F#</string>
+    <string name="akor_g">G</string>
+    <string name="akor_gkres">G#</string>
+
+    <string name="akor_a_minor">Am</string>
+    <string name="akor_akres_minor">A#m</string>
+    <string name="akor_b_minor">Bm</string>
+    <string name="akor_c_minor">Cm</string>
+    <string name="akor_ckres_minor">C#m</string>
+    <string name="akor_d_minor">Dm</string>
+    <string name="akor_dkres_minor">D#m</string>
+    <string name="akor_e_minor">Em</string>
+    <string name="akor_f_minor">Fm</string>
+    <string name="akor_fkres_minor">F#m</string>
+    <string name="akor_g_minor">Gm</string>
+    <string name="akor_gkres_minor">G#m</string>
+
+    <string name="akor_a_5">A5</string>
+    <string name="akor_akres_5">A#5</string>
+    <string name="akor_b_5">B5</string>
+    <string name="akor_c_5">C5</string>
+    <string name="akor_ckres_5">C#5</string>
+    <string name="akor_d_5">D5</string>
+    <string name="akor_dkres_5">D#5</string>
+    <string name="akor_e_5">E5</string>
+    <string name="akor_f_5">F5</string>
+    <string name="akor_fkres_5">F#5</string>
+    <string name="akor_g_5">G5</string>
+    <string name="akor_gkres_5">G#5</string>
+
+    <string name="akor_a_7">A7</string>
+    <string name="akor_b_7">B7</string>
+    <string name="akor_c_7">C7</string>
+    <string name="akor_d_7">D7</string>
+    <string name="akor_e_7">E7</string>
+    <string name="akor_f_7">F7</string>
+    <string name="akor_g_7">G7</string>
+    <string name="akor_akres_7">A#7</string>
+    <string name="akor_ckres_7">C#7 </string>
+    <string name="akor_dkres_7">D#7</string>
+    <string name="akor_fkres_7">F#7</string>
+    <string name="akor_gkres_7">G#7</string>
+
+
+    <string name="akor_akres_for_chord">A# / Bb / Bes</string>
+    <string name="akor_ckres_for_chord">C# / Db / Des</string>
+    <string name="akor_dkres_for_chord">D# / Eb / Ebes</string>
+    <string name="akor_fkres_for_chord">F# / Gb / Ges</string>
+    <string name="akor_gkres_for_chord">G# / Ab / Aes</string>
+
+
+    <string name="akor_akres_minor_for_chord">A#m / Bbm / Besm</string>
+    <string name="akor_ckres_minor_for_chord">C#m / Dbm / Desm</string>
+    <string name="akor_dkres_minor_for_chord">D#m / Ebm / Ebesm</string>
+    <string name="akor_fkres_minor_for_chord">F#m / Gbm / Gesm</string>
+    <string name="akor_gkres_minor_for_chord">G#m / Abm / Aesm</string>
+
+
+    <string name="akor_akres_5_for_chord">A#5 / Bb5 / Bes5</string>
+    <string name="akor_ckres_5_for_chord">C#5 / Db5 / Des5</string>
+    <string name="akor_dkres_5_for_chord">D#5 / Eb5 / Ebes5</string>
+    <string name="akor_fkres_5_for_chord">F#5 / Gb5 / Ges5</string>
+    <string name="akor_gkres_5_for_chord">G#5 / Ab5 / Aes5</string>
+
+
+    <string name="akor_akres_7_for_chord">A#7 / Bb7 / Bes7</string>
+    <string name="akor_ckres_7_for_chord">C#7 / Db7 / Des7</string>
+    <string name="akor_dkres_7_for_chord">D#7 / Eb7 / Ebes7</string>
+    <string name="akor_fkres_7_for_chord">F#7 / Gb7 / Ges7</string>
+    <string name="akor_gkres_7_for_chord">G#7 / Ab7 / Aes7</string>
+
+    <string name="penjelasan_akor">Akor ini bersifat universal bisa digunakan untuk lagu daerah maupun internasional</string>
+
+    <string name="tempo_14">1/4</string>
+    <string name="tempo_12">1/2</string>
+    <string name="tempo_34">3/4</string>
+    <string name="tempo_44">4/4</string>
+    <string name="tempo_18">1/8</string>
+    <string name="tempo_116">1/16</string>
+
+    <string name="penjelasan_14">Nilai 1/4 berarti bunyikan empat nada dalam empat ketukan</string>
+    <string name="penjelasan_12">Nilai 1/2 berarti bunyikan dua nada dalam empat ketukan</string>
+    <string name="penjelasan_44">Nilai 4/4 berarti bunyikan satu nada dalam empat ketukan</string>
+    <string name="penjelasan_18">Nilai 1/8 berarti bunyikan delapan nada dalam empat ketukan</string>
+    <string name="penjelasan_116">Nilai 1/16 berarti bunyikan enambelas nada dalam empat ketukan</string>
+
+    <string name="play">PLAY</string>
+    <string name="interval">Interval Nada</string>
+
+    <string name="judul_major">Major</string>
+    <string name="penjelasan_major">Tangga nada major adalah salah satu tangga nada diatonis, tangga nada ini tersusun oleh delapan not.</string>
+    <string name="interval_major">1 - 1 - 1/2 - 1 - 1 - 1 - 1/2</string>
+    <string name="contoh_major">C</string>
+    <string name="contoh_major_1">-</string>
+    <string name="contoh_major_2">D</string>
+    <string name="contoh_major_3">E</string>
+    <string name="contoh_major_4">F</string>
+    <string name="contoh_major_5">G</string>
+    <string name="contoh_major_6">A</string>
+    <string name="contoh_major_7">B</string>
+    <string name="contoh_major_8">C\'</string>
+
+    <string name="judul_minor">Minor</string>
+    <string name="penjelasan_minor">Tangga nada minor adalah salah satu tanga nada diatonis.Skala minor dapat dicari dengan melihat nada ke 6 pada skala mayor.</string>
+    <string name="interval_minor">1 - 1/2 - 1 - 1 - 1/2 - 1 - 1</string>
+    <string name="contoh_minor">A</string>
+    <string name="contoh_minor_1">-</string>
+    <string name="contoh_minor_2">B</string>
+    <string name="contoh_minor_3">C</string>
+    <string name="contoh_minor_4">D</string>
+    <string name="contoh_minor_5">E</string>
+    <string name="contoh_minor_6">F</string>
+    <string name="contoh_minor_7">G</string>
+    <string name="contoh_minor_8">A\'</string>
+
+    <string name="judul_pentatonik_major">Pentatonik Major</string>
+    <string name="penjelasan_pentatonik_major">Tangga nada pentatonik major sebenarnya adalah tangga nada major biasa. Namun, dihilangkan dua nada yaitu nada keempat dan ketujuh sehingga tersisa lima nada (penta)</string>
+    <string name="contoh_penta_mayor">C</string>
+    <string name="contoh_penta_mayor_1">-</string>
+    <string name="contoh_penta_mayor_2">D</string>
+    <string name="contoh_penta_mayor_3">E</string>
+    <string name="contoh_penta_mayor_4">G</string>
+    <string name="contoh_penta_mayor_5">A</string>
+    <string name="contoh_penta_mayor_6">C\'</string>
+
+    <string name="judul_pentatonik_minor">Pentatonik Minor</string>
+    <string name="penjelasan_pentatonik_minor">Tangga nada pentatonik minor sebenarnya adalah tangga nada minor biasa. Namun, dihilangkan dua nada yaitu nada kedua dan keenam sehingga tersisa lima nada (penta)</string>
+    <string name="contoh_penta_minor">A</string>
+    <string name="contoh_penta_minor_1">-</string>
+    <string name="contoh_penta_minor_2">C</string>
+    <string name="contoh_penta_minor_3">D</string>
+    <string name="contoh_penta_minor_4">E</string>
+    <string name="contoh_penta_minor_5">G</string>
+    <string name="contoh_penta_minor_6">A\'</string>
+
+    <string name="judul_kromatik">Kromatik</string>
+    <string name="penjelasan_kromatik">Tangga nada kromatik merupakan kumpulan semua nada dari dalam musik karena nada selalu berulang oktafnya, di mana semua nadanya berjarak 1/2</string>
+    <string name="contoh_kromatik">C</string>
+    <string name="contoh_kromatik_1">-</string>
+    <string name="contoh_kromatik_2">D</string>
+    <string name="contoh_kromatik_3">D#</string>
+    <string name="contoh_kromatik_4">E</string>
+    <string name="contoh_kromatik_5">F</string>
+    <string name="contoh_kromatik_6">F#</string>
+    <string name="contoh_kromatik_7">G</string>
+    <string name="contoh_kromatik_8">G#</string>
+    <string name="contoh_kromatik_9">A</string>
+    <string name="contoh_kromatik_10">A#</string>
+    <string name="contoh_kromatik_11">B</string>
+    <string name="contoh_kromatik_12">C\'</string>
+
+    <string name="judul_madenda_sunda">Madenda Sunda</string>
+    <string name="penjelasan_madenda_sunda">Tangga nada ini berasal dari gamelan sunda atau degung. Tangga nada ini biasanya digunakan untuk mengiringi lagu daerah yang berasal dari Sunda. Tangga nada ini berjarak 1 - 1 - 1/2 - 2 - 1/2 - 2. </string>
+
+    <string name="judul_pelog_jawa">Pelog Jawa</string>
+    <string name="penjelasan_pelog_jawa">Tangga nada pelog Jawa adalah kumpulan lima nada yang dipolakan dalam sebuah kombinasi harmonis dalam musik Jawa (Indonesia). Jaraknya adalah 1 - 1 1/2 - 1/2 - 1 - 2</string>
+
+    <string name="judul_pelog_bali">Pelog Bali</string>
+    <string name="penjelasan_pelog_bali">Tangga nada pelog Bali adalah kumpulan lima nada yang dipolakan dalam sebuah kombinasi harmonis dalam musik Bali (Indonesia). Jaraknya adalah 1 - 1/2 - 1 - 2 - 1/2</string>
+
+    <string name="judul_pelog_barang">Pelog Barang</string>
+    <string name="penjelasan_pelog_barang">Pelog barang adalah bentuk lain dari skala pelog Jawa. Skala ini tidak memakai nada satu atau nada dasar (Do)</string>
+
+    <string name="judul_pelog_bem">Pelog Bem</string>
+    <string name="penjelasan_pelog_bem">Pelog Bem adalah bentuk lain dari skala pelog Jawa. Skala ini tidak memakai nada tujuh atau nada (Si) </string>
+
+    <string name="larghissimo">Larghissimo = 20 - 39 Bpm</string>
+    <string name="largo">Largo = 40 - 59 Bpm</string>
+    <string name="largnetto">Largnetto = 60 - 65 Bpm</string>
+    <string name="adagio">Adagio = 66 - 75 Bpm</string>
+    <string name="andante">Andante = 76 - 107 Bpm</string>
+    <string name="moderato">Moderato = 108 - 119 Bpm</string>
+    <string name="allegro">Allegro = 120 - 139 Bpm</string>
+    <string name="vivace">Vivace = 140 - 159 Bpm</string>
+    <string name="presto">Presto = 160 - 199 Bpm</string>
+    <string name="prestissimo">Prestissimo = 200 keatas Bpm</string>
+
+    <string name="judul_bungo_jeumpa">Bungo Jeumpa</string>
+    <string name="bungo_jeumpa_1_lirik">Bungo Jeumpa bungo Jeumpa</string>
+    <string name="bungo_jeumpa_2_lirik">meugah di aceh</string>
+    <string name="bungo_jeumpa_3_lirik">bungong teu leubeh teuleubeh indah lagoina.</string>
+    <string name="bungo_jeumpa_4_lirik">Puteh kuneng</string>
+    <string name="bungo_jeumpa_5_lirik">Meujampu mirah</string>
+    <string name="bungo_jeumpa_6_lirik">bungong si ulah-siulah indah lagoina</string>
+    <string name="bungo_jeumpa_7_lirik">harom that meubee</string>
+    <string name="bungo_jeumpa_8_lirik">Menyo ta tem com</string>
+    <string name="bungo_jeumpa_9_lirik">leupah that harom lah harom si bungong jeumpa</string>
+    <string name="bungo_jeumpa_10_lirik">lam sinar buleun lam sinar buleun</string>
+    <string name="bungo_jeumpa_11_lirik">Angen peu ayoon</string>
+    <string name="bungo_jeumpa_12_lirik">nuroeh si oen-oen, si oen-oen yang mala-mala</string>
+    <string name="bungo_jeumpa_13_lirik">Kembali Ke Reff</string>
+
+    <string name="judul_kicir_kicir">Kicir - Kicir</string>
+    <string name="kicir_kicir_1_lirik">Kicir kicir ini lagunya</string>
+    <string name="kicir_kicir_2_lirik">Lagu lama ya tuan dari jakarta</string>
+    <string name="kicir_kicir_3_lirik">saya menyanyi ya tuan memang</string>
+    <string name="kicir_kicir_3_1_lirik">sengaja</string>
+    <string name="kicir_kicir_4_lirik">untuk menghibur menghibur hati nan</string>
+    <string name="kicir_kicir_4_1_lirik">duka</string>
+    <string name="kicir_kicir_5_lirik">burung dara burung merpati</string>
+    <string name="kicir_kicir_6_lirik">terbang cepat ya tuan tiada tara</string>
+    <string name="kicir_kicir_7_lirik">bilalah kita ya tuan suka menyanyi</string>
+    <string name="kicir_kicir_8_lirik">badanlah sehat ya tuan gembira</string>
+    <string name="kicir_kicir_9_lirik">buah mangga enak rasanya</string>
+    <string name="kicir_kicir_10_lirik">si manalagi ya tuan paling ternama</string>
+    <string name="kicir_kicir_11_lirik">siapa saja ya tuan rajin bekerja</string>
+    <string name="kicir_kicir_12_lirik">pasti menjadi menjadi warga yang berguna</string>
+
+    <string name="judul_ondel_ondel">Ondel - ondel</string>
+    <string name="ondel_ondel_1_lirik">Nyok kita nonton ondel-ondel Nyok!!</string>
+    <string name="ondel_ondel_2_lirik">nyok kita ngarak ondel-ondel Nyok!</string>
+    <string name="ondel_ondel_3_lirik">Ondel-ondel ada anaknyanye Boy!</string>
+    <string name="ondel_ondel_4_lirik">Anaknya ngider-der ideran Oy!</string>
+    <string name="ondel_ondel_5_lirik">mak!bapak ondel-ondel ngibing Ser!</string>
+    <string name="ondel_ondel_6_lirik">ngarak penganten disunatin Serr!</string>
+    <string name="ondel_ondel_7_lirik">Goyangnya asik ndut-ndutan Dutt!</string>
+    <string name="ondel_ondel_8_lirik">Yang ngiringin igel-igelan</string>
+    <string name="ondel_ondel_9_lirik">Plak dung dung dung plak..plak..plak</string>
+    <string name="ondel_ondel_10_lirik">gendang nyaring ditepak yang ngiringin nandak pada surak-surak</string>
+    <string name="ondel_ondel_11_lirik">Tangan iseng jailin</string>
+    <string name="ondel_ondel_12_lirik">Tarukin puntungan</string>
+    <string name="ondel_ondel_13_lirik">rambut kebakaran</string>
+    <string name="ondel_ondel_14_lirik">Anak onel-ondel jijikrakan Krak!</string>
+    <string name="ondel_ondel_15_lirik">Kepale nyale berkobaran Bul!</string>
+    <string name="ondel_ondel_16_lirik">Yang ngarak pada kebingungan Ngung!</string>
+    <string name="ondel_ondel_17_lirik">Disiramin air comberan Byur!</string>
+
+    <string name="judul_manuk_dadali">Manuk Dadali</string>
+    <string name="manuk_dadali_1_lirik">Mesat ngapung luhur jauh di awang awang</string>
+    <string name="manuk_dadali_2_lirik">Meberkeun janjangna bangun taya karingrang</string>
+    <string name="manuk_dadali_3_lirik">Kukuna ranggaos reujeung pamatukna ngeluk</string>
+    <string name="manuk_dadali_4_lirik">Ngepak mega bari hiberna tarik nyuruwuk</string>
+    <string name="manuk_dadali_5_lirik">Saha anu bisa nyusul kana tandangna</string>
+    <string name="manuk_dadali_6_lirik">gadang jeung partentang taya badingan nana</string>
+    <string name="manuk_dadali_7_lirik">Dipikagimir dipikaserab ku sasama</string>
+    <string name="manuk_dadali_8_lirik">Taya karempan ka sieun leber wawanenna</string>
+    <string name="manuk_dadali_9_lirik">Manuk dadali manuk panggagahna</string>
+    <string name="manuk_dadali_10_lirik">Perlambang sakti Indonesia jaya</string>
+    <string name="manuk_dadali_11_lirik">Manuk dadali pang kakoncarana</string>
+    <string name="manuk_dadali_12_lirik">Resep ngahiji rukun sakabehna</string>
+    <string name="manuk_dadali_13_lirik">Hirup sauyunan tara pahirihiri</string>
+    <string name="manuk_dadali_14_lirik">Silih pikanyaah teu inggis bela pati</string>
+    <string name="manuk_dadali_15_lirik">Manuk dadali gadung siloka sinatria</string>
+    <string name="manuk_dadali_16_lirik">Keur sukamna bangsa di nagara Indonesia</string>
+
+    <string name="judul_tokecang">Tokecang</string>
+    <string name="tokecang_1_lirik">Tokecang tokecang balagendir tosblong</string>
+    <string name="tokecang_2_lirik">Angeun kacang Angeun kacang sapariuk kosong</string>
+    <string name="tokecang_3_lirik">Aya listrik di masigit meuni caang katingalna</string>
+    <string name="tokecang_4_lirik">Aya istri jangkung alit karangan dina pipina</string>
+
+    <string name="judul_cing_cangkeling">Cing Cangkeling</string>
+    <string name="cing_cangkeling_1_lirik">Kleung dengklek buah kopi rarang geuyan</string>
+    <string name="cing_cangkeling_2_lirik">Keun anu dewek ulah pati diheureuyan</string>
+    <string name="cing_cangkeling_3_lirik">Cing cangkeling manuk cingkleung cindeten</string>
+    <string name="cing_cangkeling_4_lirik">Plos kakolong bapak satar buleneng</string>
+    <string name="cing_cangkeling_5_lirik">Pat lapat pat lapat katingalan masih tebih kene pisan</string>
+    <string name="cing_cangkeling_6_lirik">Layarna bodas jeung celak kasurung kaombak ombak</string>
+
+    <string name="judul_gundul_gundul_pacul">Gundul Gundul Pacul</string>
+    <string name="gundul_gundul_pacul_1_lirik">Gundul-gundul pacul-cul gembelengan</string>
+    <string name="gundul_gundul_pacul_2_lirik">Nyunggi-nyunggi wakul-kul gembelengan</string>
+    <string name="gundul_gundul_pacul_3_lirik">Wakul nglimpang segone dadi saratang</string>
+
+    <string name="judul_cublak_cublak_suweng">Cublak Cublak Suweng</string>
+    <string name="cublak_cublak_suweng_1_lirik">Cublak-cublak suweng</string>
+    <string name="cublak_cublak_suweng_2_lirik">Suwenge ting gelenger</string>
+    <string name="cublak_cublak_suweng_3_lirik">Mambu kethundung gudel</string>
+    <string name="cublak_cublak_suweng_4_lirik">Pak emphong lera-lere</string>
+    <string name="cublak_cublak_suweng_5_lirik">Sopo ngguyu ndelak ake</string>
+    <string name="cublak_cublak_suweng_6_lirik">Sir... sir... pong ndele kopong</string>
+
+    <string name="judul_lir_ilir">Lir Ilir</string>
+    <string name="lir_ilir_1_lirik">Lir Ilir Lir Ilir</string>
+    <string name="lir_ilir_2_lirik">tandure wong sumilir</string>
+    <string name="lir_ilir_3_lirik">tak ijo royo royo</string>
+    <string name="lir_ilir_4_lirik">tak sengguh temanten anyar</string>
+    <string name="lir_ilir_5_lirik">bocah angon bocah angon</string>
+    <string name="lir_ilir_6_lirik">penekno blimbing kuwi</string>
+    <string name="lir_ilir_7_lirik">lunyu lunyu penekno</string>
+    <string name="lir_ilir_8_lirik">kanggo mbasuh dodot iro</string>
+    <string name="lir_ilir_9_lirik">dodot iro dodot iro</string>
+    <string name="lir_ilir_10_lirik">kumintir bedah ing pinggir</string>
+    <string name="lir_ilir_11_lirik">dondomono jrumatano</string>
+    <string name="lir_ilir_12_lirik">kanggo sebo mengko sore</string>
+    <string name="lir_ilir_13_lirik">mumpung padang rembulane</string>
+    <string name="lir_ilir_14_lirik">mumpung jembar kalangane</string>
+    <string name="lir_ilir_15_lirik">sun surak o surak hiyo..i</string>
+
+    <string name="judul_rek_ayo_rek">Rek Ayo Rek</string>
+    <string name="rek_ayo_rek_1_lirik">Rek ayo rek, mlaku-mlaku ning tunjungan</string>
+    <string name="rek_ayo_rek_2_lirik">Rek ayo rek, rame-rame bebarengan</string>
+    <string name="rek_ayo_rek_3_lirik">Cak ayo cak sopo gelem melu aku</string>
+    <string name="rek_ayo_rek_4_lirik">Cak ayo cak golek kenalan cah ayu</string>
+    <string name="rek_ayo_rek_5_lirik">Ngalor-ngidul lewat toko ngumbah moto</string>
+    <string name="rek_ayo_rek_6_lirik">Masio mung nyenggal-nyenggol ati lego</string>
+    <string name="rek_ayo_rek_7_lirik">Sopo ngerti nasib awak lagi mujur</string>
+    <string name="rek_ayo_rek_8_lirik">Kenal anake seng dodol rujak cingur</string>
+    <string name="rek_ayo_rek_9_lirik">Jok di fikir kon podho gak duwe sangu</string>
+    <string name="rek_ayo_rek_10_lirik">Jok di fikir angger podo gelem mlaku</string>
+    <string name="rek_ayo_rek_11_lirik">Mangan tahu jok di campur nganggo timun</string>
+    <string name="rek_ayo_rek_12_lirik">Malem minggu gak apik di gowo nglamun</string>
+
+    <string name="judul_tanjung_perak">Tanjung Perak</string>
+    <string name="tanjung_perak_1_lirik">waktu terang bulan</string>
+    <string name="tanjung_perak_2_lirik">udara bersinar terang</string>
+    <string name="tanjung_perak_3_lirik">teranglah sekali di kotalah Surabaya</string>
+    <string name="tanjung_perak_4_lirik">perlu brapa lama, saya duduk dengan bimbang</string>
+    <string name="tanjung_perak_5_lirik">datang kawan saya, pak Gesang itu namanya</string>
+    <string name="tanjung_perak_6_lirik">ayo rame-rame pergi kota tanjung perak</string>
+    <string name="tanjung_perak_7_lirik">paggil satu taksi kita sorak lah bersorak</string>
+    <string name="tanjung_perak_8_lirik">tanjung perak tepi laut</string>
+    <string name="tanjung_perak_9_lirik">siapa suka boleh ikut</string>
+    <string name="tanjung_perak_10_lirik">bawa gitar kroncong piul</string>
+    <string name="tanjung_perak_11_lirik">jangan lupa bawa anggur</string>
+    <string name="tanjung_perak_12_lirik">tanjung perak, tepi laut</string>
+
+    <string name="judul_keraben_sape">Keraben Sape</string>
+    <string name="keraben_sape_1_lirik">Saban taon e madura latan te rame</string>
+    <string name="keraben_sape_2_lirik">Banya kelaban badana kerraban sape</string>
+    <string name="keraben_sape_3_lirik">Banya rang manca pada datang dari jau na</string>
+    <string name="keraben_sape_4_lirik">Bade nenggu a kerraban sape madura</string>
+    <string name="keraben_sape_5_lirik">E eeee sape buru duli buru</string>
+    <string name="keraben_sape_6_lirik">E eeee sape menggir duli menggir</string>
+
+    <string name="judul_butet">Butet</string>
+    <string name="butet_1_lirik">Butet dipangungsian do amangmu ale butet</string>
+    <string name="butet_2_lirik">Da margurilla da mardarurat ale butet </string>
+    <string name="butet_3_lirik">I doge doge doge (hi) dai doge (hi) doge (hi) doge </string>
+    <string name="butet_4_lirik">Butet sotung ngol-ngolan ro hamuna ale butet </string>
+    <string name="butet_5_lirik">Pai ma tona manang surat ale butet </string>
+    <string name="butet_6_lirik">Butet tibo do mulak au apangmu ale butet </string>
+    <string name="butet_7_lirik">Masunta ingkon saut do talu ale butet </string>
+    <string name="butet_8_lirik">Butet haru patibu ma magodang ale butet </string>
+    <string name="butet_9_lirik">Asa adong da palang merah ale butet </string>
+    <string name="butet_10_lirik">Da palang merah ni negara ale butet</string>
+
+    <string name="judul_sinanggar_tullo">Sinanggar Tullo</string>
+    <string name="sinanggar_tullo_1_lirik">Sinanggar tullo tullo a tullo</string>
+    <string name="sinanggar_tullo_2_lirik">Tu di a ma luluan da goreng-goreng ba hen so ban</string>
+    <string name="sinanggar_tullo_3_lirik">Sa i tu di a ma luluan da boru to bing ba hen do ngan</string>
+    <string name="sinanggar_tullo_4_lirik">Ai sibuk sada bo gung da sai tu pe be sa karimpang</string>
+    <string name="sinanggar_tullo_5_lirik">Sai manipung rap tu toru sai mangangkat rap to gijang</string>
+
+    <string name="judul_alusi_au">Alusi Au</string>
+    <string name="alusi_au_1_lirik">Marragam-ragam do anggo sitta-sitta dihita manisia</string>
+    <string name="alusi_au_2_lirik">Marasing-asing do anggo pangidoan diganup-ganup jolma</string>
+    <string name="alusi_au_3_lirik">Hamoraon hagabeon hasangapon   </string>
+    <string name="alusi_au_4_lirik">ido di lului na deba</string>
+    <string name="alusi_au_5_lirik">Dinadeba asalma tarbarita</string>
+    <string name="alusi_au_6_lirik">goarna tahe….</string>
+    <string name="alusi_au_7_lirik">Anggo di au tung asing do sitta-sitta asing pangidoanku</string>
+    <string name="alusi_au_8_lirik">Mansai ambal pe unang pola mangissak hamu tahe di au</string>
+    <string name="alusi_au_9_lirik">Sasude na nahugoari i da</string>
+    <string name="alusi_au_10_lirik">dai saut di au </string>
+    <string name="alusi_au_11_lirik">Sita-sita di au</string>
+    <string name="alusi_au_12_lirik">tung asing situtu do tahe</string>
+    <string name="alusi_au_13_lirik">Tung holong ni roham i sambing do na hupaima – ima</string>
+    <string name="alusi_au_14_lirik">Tung denggan ni basam, lagumi do na huparsita – sita</string>
+    <string name="alusi_au_15_lirik">Asi ni roham ma ito, unang loas au maila</string>
+    <string name="alusi_au_16_lirik">Beha roham, dok ma hatam, </string>
+    <string name="alusi_au_17_lirik">Alusi au…</string>
+    <string name="alusi_au_18_lirik">Alu… si… au… </string>
+    <string name="alusi_au_19_lirik">Alu… alusi au, alusi au</string>
+
+    <string name="judul_kampuang_nan_jaoh_di_mato">Kampuang Nan Jaoh Di Mato</string>
+    <string name="kampuang_nan_jaoh_di_mato_1_lirik">Kampuang nan jauh di mato</string>
+    <string name="kampuang_nan_jaoh_di_mato_2_lirik">Gunuang Sansai Baku Liliang</string>
+    <string name="kampuang_nan_jaoh_di_mato_3_lirik">Takana Jo Kawan, Kawan Nan Lamo</string>
+    <string name="kampuang_nan_jaoh_di_mato_4_lirik">Sangkek Basu Liang Suliang</string>
+    <string name="kampuang_nan_jaoh_di_mato_5_lirik">Panduduknya nan elok nan</string>
+    <string name="kampuang_nan_jaoh_di_mato_6_lirik">Suko Bagotong Royong</string>
+    <string name="kampuang_nan_jaoh_di_mato_7_lirik">Kok susah samo samo diraso</string>
+    <string name="kampuang_nan_jaoh_di_mato_8_lirik">Den Takana Jo Kampuang</string>
+    <string name="kampuang_nan_jaoh_di_mato_9_lirik">Takana Jo Kampuang</string>
+    <string name="kampuang_nan_jaoh_di_mato_10_lirik">Induk Ayah Adik Sadonyo</string>
+    <string name="kampuang_nan_jaoh_di_mato_11_lirik">Raso Mangimbau Ngimbau Den Pulang</string>
+    <string name="kampuang_nan_jaoh_di_mato_12_lirik">Den Takana Jo Kampuang</string>
+
+    <string name="judul_ayam_den_lapeh">Ayam Den Lapeh</string>
+    <string name="ayam_den_lapeh_1_lirik">Luruihlah jalan Payakumbuah</string>
+    <string name="ayam_den_lapeh_2_lirik">Babelok Jalan Kayu Jati</string>
+    <string name="ayam_den_lapeh_3_lirik">Dima ati indak karusuah</string>
+    <string name="ayam_den_lapeh_4_lirik">Ayam den lapeh.. ai... ai...</string>
+    <string name="ayam_den_lapeh_5_lirik">Ayam den lapeh</string>
+    <string name="ayam_den_lapeh_6_lirik">Mandaki jalan Pandai Sikek</string>
+    <string name="ayam_den_lapeh_7_lirik">Basimpang jalan ka biaro</string>
+    <string name="ayam_den_lapeh_8_lirik">Dima ati indak kamaupek</string>
+    <string name="ayam_den_lapeh_9_lirik">Awak takicuah... ai... ai...</string>
+    <string name="ayam_den_lapeh_10_lirik">Ayam den lapeh</string>
+    <string name="ayam_den_lapeh_11_lirik">Sikucapang sikucapeh, saikua tabang saikua lapeh</string>
+    <string name="ayam_den_lapeh_12_lirik">Tabanglah juo nan ka rimbo, oi lah malang juo</string>
+    <string name="ayam_den_lapeh_13_lirik">Pagaruyuang Batusangka, tampek bajalan urang Baso</string>
+    <string name="ayam_den_lapeh_14_lirik">Duduak tamanuang tiok sabanta</string>
+    <string name="ayam_den_lapeh_15_lirik">Oi takana juo... ai... ai..</string>
+    <string name="ayam_den_lapeh_16_lirik">Ayam den lapeh</string>
+
+    <string name="judul_suwe_ora_jamu">Suwe Ora Jamu</string>
+    <string name="suwe_ora_jamu_1_lirik">suwe ora jamu </string>
+    <string name="suwe_ora_jamu_2_lirik">jamu godong telo </string>
+    <string name="suwe_ora_jamu_3_lirik">suwe ora ketemu </string>
+    <string name="suwe_ora_jamu_4_lirik">ketemu pisan gawe gelo . . </string>
+
+    <string name="judul_aceh_lon_sayang">Aceh Lon Sayang</string>
+    <string name="aceh_lon_sayang_1_lirik">Daerah aceh , Tanoh lon sayang..</string>
+    <string name="aceh_lon_sayang_2_lirik">Nibak teumpat nyan, lon udep matee..</string>
+    <string name="aceh_lon_sayang_3_lirik">Tanoh keunebah, indatu moyang..</string>
+    <string name="aceh_lon_sayang_4_lirik">Lampoh dengon blang, luah bukon lee.. </string>
+    <string name="aceh_lon_sayang_5_lirik">Keureja udep, na soe peutimang..</string>
+    <string name="aceh_lon_sayang_6_lirik">Na soe peusenang, keureja matee..</string>
+    <string name="aceh_lon_sayang_7_lirik">Hatee nyang susah ,lon rasa seunang</string>
+    <string name="aceh_lon_sayang_8_lirik">Aceh lon sayang sampoan matee.. </string>
+
+    <string name="judul_tawar_sedenge">Tawar Sedenge</string>
+    <string name="tawar_sedenge_1_lirik">Ëngonko sô Tanoh Gayô</string>
+    <string name="tawar_sedenge_2_lirik">Si mêgah murêta dêle</string>
+    <string name="tawar_sedenge_3_lirik">Rôm batang nuyêm si ijô</string>
+    <string name="tawar_sedenge_4_lirik">Kupi bakôe</string>
+    <string name="tawar_sedenge_5_lirik">Pêngënko tôk ni kôrek sô</string>
+    <string name="tawar_sedenge_6_lirik">Uêtmi ko Tanoh Gayô</string>
+    <string name="tawar_sedenge_7_lirik">Sêselên pumu ni baju</string>
+    <string name="tawar_sedenge_8_lirik">Nêtah dirimu</string>
+    <string name="tawar_sedenge_9_lirik">Nti datën bôr kêliêtên</string>
+    <string name="tawar_sedenge_10_lirik">Mongot pudêdêru</string>
+    <string name="tawar_sedenge_11_lirik">Oya lê rahmat ni Tuhên</string>
+    <string name="tawar_sedenge_12_lirik">Ken ko bëwënmu</string>
+    <string name="tawar_sedenge_13_lirik">Uêtmi ko Tanoh Gayô</string>
+    <string name="tawar_sedenge_14_lirik">Sêmbayak bajungku</string>
+    <string name="tawar_sedenge_15_lirik">Ken tawar roh muyang datu</string>
+    <string name="tawar_sedenge_16_lirik">Uêtmi masku</string>
+    <string name="tawar_sedenge_17_lirik">Wo matangku si mumimpin</string>
+    <string name="tawar_sedenge_18_lirik">Êmah ko uyêm ken sôlôh</string>
+    <string name="tawar_sedenge_19_lirik">Kati kedeng nti musêltu</string>
+    <string name="tawar_sedenge_20_lirik">Ilah ni dêne</string>
+    <string name="tawar_sedenge_21_lirik">Wô kedeng kaô ken cêrmin</string>
+    <string name="tawar_sedenge_22_lirik">Rêmalan ênti bêrtêdôh</string>
+    <string name="tawar_sedenge_23_lirik">Nti mêra kaô tang/tar duru</string>
+    <string name="tawar_sedenge_24_lirik">Bôn jêma dêle</string>
+    <string name="tawar_sedenge_25_lirik">Nti osan ku pumu jêma</string>
+    <string name="tawar_sedenge_26_lirik">Pêsaka si ara</string>
+    <string name="tawar_sedenge_27_lirik">Tênareng ni muyang datu</string>
+    <string name="tawar_sedenge_28_lirik">Ken kô bëwënmu</string>
+    <string name="tawar_sedenge_29_lirik">Uêtmi ko Tanoh Gayô</string>
+    <string name="tawar_sedenge_30_lirik">Wô ôpôh bajungku</string>
+    <string name="tawar_sedenge_31_lirik">Ken tawar roh muyang datu</string>
+    <string name="tawar_sedenge_32_lirik">Uêtmi masku</string>
+
+    <string name="judul_bareh_solok">Bareh Solok</string>
+    <string name="bareh_solok_1_lirik">Bareh Solok Tanak di Dandang</string>
+    <string name="bareh_solok_2_lirik">Dipagatok Ulam Pario</string>
+    <string name="bareh_solok_3_lirik">Bunyi Kulek Cando Badendang</string>
+    <string name="bareh_solok_4_lirik">Dek Ditingkah ondeh mak, si samba lado</string>
+    <string name="bareh_solok_5_lirik">Urang Sumpu Jalan Barampek</string>
+    <string name="bareh_solok_6_lirik">Disingkarak Singgah Dahulu</string>
+    <string name="bareh_solok_7_lirik">Bareh Baru Makan jo Pangek</string>
+    <string name="bareh_solok_8_lirik">Indak Nampak ondeh mak, mintuo lalu</string>
+    <string name="bareh_solok_9_lirik">Bareh Solok, Bareh Tanamo</string>
+    <string name="bareh_solok_10_lirik">Bareh Solok Lamak Rasonyo</string>
+
+    <string name="judul_timang_timang_anakku_sayang">Timang timang anakku sayang</string>
+    <string name="timang_timang_anakku_sayang_1_lirik">Timang-timang anakku sayang</string>
+    <string name="timang_timang_anakku_sayang_2_lirik">Buah hati ayah ‘nda seorang……</string>
+    <string name="timang_timang_anakku_sayang_3_lirik">Jangan marah dan jangan merajuk</string>
+    <string name="timang_timang_anakku_sayang_3_1_lirik">sayang</string>
+    <string name="timang_timang_anakku_sayang_4_lirik">Tenanglah dikau dalam buaian</string>
+    <string name="timang_timang_anakku_sayang_5_lirik">Betapakah hati tak ‘kan riang</string>
+    <string name="timang_timang_anakku_sayang_6_lirik">Bila kau bergurau dan tertawa……</string>
+    <string name="timang_timang_anakku_sayang_7_lirik">S’mogalah jadi orang berguna sayang</string>
+    <string name="timang_timang_anakku_sayang_8_lirik">Riang gembira sepanjang masa</string>
+    <string name="timang_timang_anakku_sayang_9_lirik">Setiap waktu ku berdoa</string>
+    <string name="timang_timang_anakku_sayang_10_lirik">kepada Tuhan Maha Esa</string>
+    <string name="timang_timang_anakku_sayang_11_lirik">Jika kau sudah dewasa</string>
+    <string name="timang_timang_anakku_sayang_12_lirik">Hidupmu bahagia sentausa</string>
+    <string name="timang_timang_anakku_sayang_13_lirik">Timang-timang anakku sayang</string>
+    <string name="timang_timang_anakku_sayang_14_lirik">Kasih hati permata ayah ‘nda…….</string>
+    <string name="timang_timang_anakku_sayang_15_lirik">Tidurlah tidur pejamkan mata sayang</string>
+    <string name="timang_timang_anakku_sayang_16_lirik">esok lusa bermain kembali</string>
+
+    <string name="judul_injit_injit_semut">Injit injit Semut</string>
+    <string name="injit_injit_semut_1_lirik">Jalan jalan ke tanah Deli</string>
+    <string name="injit_injit_semut_2_lirik">Sungguh indah tempat tamasya</string>
+    <string name="injit_injit_semut_3_lirik">Kawan jangan bersedih</string>
+    <string name="injit_injit_semut_4_lirik">Mari nyanyi bersama sama</string>
+    <string name="injit_injit_semut_5_lirik">Kalau pergi ke Surabaya</string>
+    <string name="injit_injit_semut_6_lirik">Naik perahu dayung sendiri</string>
+    <string name="injit_injit_semut_7_lirik">Kalau hatimu susah</string>
+    <string name="injit_injit_semut_8_lirik">yang rugi diri sendiri</string>
+    <string name="injit_injit_semut_9_lirik">Injit injit semut ..siapa sakit naik di atas</string>
+    <string name="injit_injit_semut_10_lirik">Injit injit semut ..walau sakit jangan di lepas</string>
+    <string name="injit_injit_semut_11_lirik">Naik perahu ke pulau seribu</string>
+    <string name="injit_injit_semut_12_lirik">Sungguh indah si pulau karang</string>
+    <string name="injit_injit_semut_13_lirik">Sungguh malang nasibku</string>
+    <string name="injit_injit_semut_14_lirik">Punya pacar di ambil orang</string>
+    <string name="injit_injit_semut_15_lirik">Ramai sungguh bandar Jakarta</string>
+    <string name="injit_injit_semut_16_lirik">Tempat orang mengikat janji</string>
+    <string name="injit_injit_semut_17_lirik">Walau pacar tak punya</string>
+    <string name="injit_injit_semut_18_lirik">Hati senang dapat bernyanyi</string>
+
+    <string name="judul_pinang_muda">Pinang Muda</string>
+    <string name="pinang_muda_1_lirik">Pinang muda pinang muda dibelah dua</string>
+    <string name="pinang_muda_2_lirik">Manik-manik sekepal digenggam</string>
+    <string name="pinang_muda_3_lirik">berkilau bersinar merembah sekepal</string>
+    <string name="pinang_muda_4_lirik">Manik-manik sekepal digenggam</string>
+    <string name="pinang_muda_5_lirik">berkilau bersinar merembah</string>
+    <string name="pinang_muda_6_lirik">Dari muda ke tua petuah jangan diubah</string>
+
+    <string name="judul_ikan_pais">Ikan Pais</string>
+    <string name="ikan_pais_1_lirik">Ikan pais..</string>
+    <string name="ikan_pais_2_lirik">kelaponyo mudo..</string>
+    <string name="ikan_pais_3_lirik">dibungkus daun talas rapih-rapih</string>
+    <string name="ikan_pais_4_lirik">dikebek tali meisyang...</string>
+    <string name="ikan_pais_5_lirik">ikan pais..</string>
+    <string name="ikan_pais_6_lirik">Lemak rasonyo.. </string>
+    <string name="ikan_pais_7_lirik">makan kek nasi putih pane pane</string>
+    <string name="ikan_pais_8_lirik">ulam kek jering mudo</string>
+    <string name="ikan_pais_9_lirik">Rasonyo oii lemak nian</string>
+    <string name="ikan_pais_10_lirik">makan sebungkus samo samo</string>
+    <string name="ikan_pais_11_lirik">nasi sepiring sudah habis</string>
+    <string name="ikan_pais_12_lirik">raso nak nambuh</string>
+    <string name="ikan_pais_13_lirik">Rasonyo oii lemak nian</string>
+    <string name="ikan_pais_14_lirik">badan keringek rintik rintik</string>
+    <string name="ikan_pais_15_lirik">sambalnyo pede nambuh lagi</string>
+    <string name="ikan_pais_16_lirik">habis segalo...</string>
+
+    <string name="judul_soleram">Soleram</string>
+    <string name="soleram_1_lirik">Soleram</string>
+    <string name="soleram_2_lirik">Anak yang manis</string>
+    <string name="soleram_3_lirik">Anak manis janganlah dicium sayang</string>
+    <string name="soleram_4_lirik">Kalau dicium merah lah pipinya</string>
+    <string name="soleram_5_lirik">Anak manis janganlah diganggu sayang</string>
+    <string name="soleram_6_lirik">Kalau diganggu marahlah mamanya</string>
+    <string name="soleram_7_lirik">Satu dua</string>
+    <string name="soleram_8_lirik">Tiga dan empat</string>
+    <string name="soleram_9_lirik">Lima enam</string>
+    <string name="soleram_10_lirik">Tujuh delapan</string>
+    <string name="soleram_11_lirik">Kalau tuan dapat kawan baru sayang</string>
+    <string name="soleram_12_lirik">Kawan lama jangan ditinggalkan</string>
+
+    <string name="judul_zapin_laksamana_di_laut">Zapin Laksamana Di Laut</string>
+    <string name="zapin_laksamana_di_laut_1_lirik">. . zapin . . iinnn . . iinn iin . .</string>
+    <string name="zapin_laksamana_di_laut_2_lirik">aku dendangkan . .</string>
+    <string name="zapin_laksamana_di_laut_3_lirik">lagu melayu . .</string>
+    <string name="zapin_laksamana_di_laut_4_lirik">pelipur hati. .iii. .iii . .</string>
+    <string name="zapin_laksamana_di_laut_5_lirik">. . pelipur lara . .</string>
+    <string name="zapin_laksamana_di_laut_6_lirik">cahaya manis kilau gemilau </string>
+    <string name="zapin_laksamana_di_laut_7_lirik">di kampung tapir. .indah menawan </string>
+    <string name="zapin_laksamana_di_laut_8_lirik">aku bernyanyi . . berzapin riang </string>
+    <string name="zapin_laksamana_di_laut_9_lirik">moga hadirin . . aduhai sayang </string>
+    <string name="zapin_laksamana_di_laut_10_lirik">jadi terkesan . .</string>
+    <string name="zapin_laksamana_di_laut_11_lirik">kembanglah goyang atas kepala</string>
+    <string name="zapin_laksamana_di_laut_12_lirik">lipatlah tangan . .sanggul dipadu</string>
+    <string name="zapin_laksamana_di_laut_13_lirik">kita berdendang . .bersuka ria . .</string>
+    <string name="zapin_laksamana_di_laut_14_lirik">lagulah zapin . . aduhai sayang</string>
+    <string name="zapin_laksamana_di_laut_15_lirik">rentak melayu . .</string>
+    <string name="zapin_laksamana_di_laut_16_lirik">laksamana raja di laut . .</string>
+    <string name="zapin_laksamana_di_laut_17_lirik">bersemayam di bukit batu . .</string>
+    <string name="zapin_laksamana_di_laut_18_lirik">ahai hati siapa . . ahai tak terpaut . .</string>
+    <string name="zapin_laksamana_di_laut_19_lirik">mendengar lagu . . zapin melayu . .</string>
+    <string name="zapin_laksamana_di_laut_20_lirik">  membawa tepak . . hantaran belanja</string>
+    <string name="zapin_laksamana_di_laut_21_lirik">bertakhta perak . . indah berseri</string>
+    <string name="zapin_laksamana_di_laut_22_lirik">kami bertandang . . mewujud budaya </string>
+    <string name="zapin_laksamana_di_laut_23_lirik">tidak melayu . . aduhai sayang </string>
+    <string name="zapin_laksamana_di_laut_24_lirik">hilang dibumi . .</string>
+    <string name="zapin_laksamana_di_laut_25_lirik">peting lah gambus sayang lantang berbunyi</string>
+    <string name="zapin_laksamana_di_laut_26_lirik">disambut dengan . . tingkah meruas</string>
+    <string name="zapin_laksamana_di_laut_27_lirik">saya menyanyi . . sampai di sini</string>
+    <string name="zapin_laksamana_di_laut_28_lirik">mudah - mudahan . . hadirin semua</string>
+    <string name="zapin_laksamana_di_laut_29_lirik">menjadi puas . .</string>
+
+    <string name="judul_yok_miak">Yok Miak</string>
+    <string name="yok_miak_1_lirik">Yo miak kite gi, ke kebun ke hume</string>
+    <string name="yok_miak_2_lirik">Mawak suyak, mawak suyak </string>
+    <string name="yok_miak_3_lirik">mikol pacul</string>
+    <string name="yok_miak_4_lirik">Kite begawe, kite begawe besame-same</string>
+    <string name="yok_miak_5_lirik">Kite nebas lalang, macul rumpot</string>
+    <string name="yok_miak_6_lirik">Biarlah leteh, biar leteh kebun lah berseh</string>
+    <string name="yok_miak_7_lirik">Sahang lah kite, sahang kite la masak gale</string>
+    <string name="yok_miak_8_lirik">Ambik belacan, garem, cabik kecit</string>
+    <string name="yok_miak_9_lirik">Kite ngelempah, kite ngelempah</string>
+    <string name="yok_miak_10_lirik">Lempah darat</string>
+    <string name="yok_miak_11_lirik">Pucuk lah idat, alar keladi hai lempah darat</string>
+    <string name="yok_miak_12_lirik">Yo miak kite makan laok lempah darat</string>
+    <string name="yok_miak_13_lirik">Lempah darat, lempah darat Bangka asli</string>
+    <string name="yok_miak_14_lirik">sungguh lah nyamen, sungguh nyamen </string>
+    <string name="yok_miak_15_lirik">makan di hume</string>
+    <string name="yok_miak_16_lirik">Yo miak kite pulang, ari lah petang</string>
+    <string name="yok_miak_17_lirik">Urang di humah, urang di humah</string>
+    <string name="yok_miak_18_lirik">nunggu lah lame</string>
+    <string name="yok_miak_19_lirik">Sungguh lah seneng, sungguh seneng</string>
+    <string name="yok_miak_20_lirik">gawe lah udeh </string>
+
+    <string name="judul_cuk_mak_ilang">Cuk Mak Ilang</string>
+    <string name="cuk_mak_ilang_1_lirik">Cuk Mak Ilang</string>
+    <string name="cuk_mak_ilang_2_lirik">Mak ilang jaga batu</string>
+    <string name="cuk_mak_ilang_3_lirik">Dimano koceng belang</string>
+    <string name="cuk_mak_ilang_4_lirik">Disitu rumah aku</string>
+    <string name="cuk_mak_ilang_5_lirik">Kapal api masok pelembang</string>
+    <string name="cuk_mak_ilang_6_lirik">Banyu tenang jadi gelumbang</string>
+    <string name="cuk_mak_ilang_7_lirik">Oi makmano ati dak bimbang</string>
+    <string name="cuk_mak_ilang_8_lirik">Gades doson bujang pelembang</string>
+
+    <string name="judul_dek_sangke">Dek Sangke</string>
+    <string name="dek_sangke_1_lirik">Dek sangke aku dek sangke</string>
+    <string name="dek_sangke_2_lirik">Awak tunak ngaku juare</string>
+    <string name="dek_sangke_3_lirik">Alamat badan sengsare</string>
+    <string name="dek_sangke_4_lirik">Akhirnya masuk penjare</string>
+    <string name="dek_sangke_5_lirik">Dek sangke aku dek sangke</string>
+    <string name="dek_sangke_6_lirik">Cempedak babuah nangke</string>
+    <string name="dek_sangke_7_lirik">Ujiku bujang ye tue bangke</string>
+    <string name="dek_sangke_8_lirik">Anaknye lah gadis gale</string>
+    <string name="dek_sangke_9_lirik">Dek sangke gadis tegile</string>
+
+    <string name="judul_kebile_bile">Kebile bile</string>
+    <string name="kebile_bile_1_lirik">Kebile-bile mangke ku lege</string>
+    <string name="kebile_bile_2_lirik">Kebile-bile ku ade kance</string>
+    <string name="kebile_bile_3_lirik">Kebile nian jagungkan mute</string>
+    <string name="kebile_bile_4_lirik">Pute dek pute kuhendam kinak</string>
+    <string name="kebile_bile_5_lirik">Kebile nian agungkan nule</string>
+    <string name="kebile_bile_6_lirik">Nule dek nule kudendam kinak</string>
+    <string name="kebile_bile_7_lirik">Kebile nian mampat begune</string>
+    <string name="kebile_bile_8_lirik">Mangke dek payah ku nandang lagi</string>
+    <string name="kebile_bile_9_lirik">Kebile nian sifat begune</string>
+    <string name="kebile_bile_10_lirik">Mangke dek payah ku midang lagi</string>
+    <string name="kebile_bile_11_lirik">Kebile nian sifat begune</string>
+    <string name="kebile_bile_12_lirik">Mangke dek payah ku midang lagi</string>
+
+    <string name="judul_cangget_agung">Cangget Agung</string>
+    <string name="cangget_agung_1_lirik">Sesat agung sai wawai</string>
+    <string name="cangget_agung_2_lirik">Talo butabuh takhi cangget</string>
+    <string name="cangget_agung_3_lirik">Gawi adat tano tegoh</string>
+    <string name="cangget_agung_4_lirik">Cakak pepadun</string>
+    <string name="cangget_agung_5_lirik">Adat budayo lampung</string>
+    <string name="cangget_agung_6_lirik">Nayah temon ragam wawai no</string>
+    <string name="cangget_agung_7_lirik">Jepana garudano</string>
+    <string name="cangget_agung_8_lirik">Ghata sebatin</string>
+    <string name="cangget_agung_9_lirik">Cangget agung</string>
+    <string name="cangget_agung_10_lirik">Muli batangan Dilom kutomaro</string>
+    <string name="cangget_agung_11_lirik">Mejeng busanding</string>
+    <string name="cangget_agung_12_lirik">Gawi adat lampung2</string>
+    <string name="cangget_agung_13_lirik">Jak jaman tohow</string>
+    <string name="cangget_agung_14_lirik">Lapah gham jamo jamo</string>
+    <string name="cangget_agung_15_lirik">Ngelestariko adat lampung</string>
+
+    <string name="judul_sang_bumi_ruwai_jura">Sang Bumi Ruwai Jura</string>
+    <string name="sang_bumi_ruwai_jura_1_lirik">Jak ujung danau Ranau</string>
+    <string name="sang_bumi_ruwai_jura_2_lirik">Teliu mit Way Kanan</string>
+    <string name="sang_bumi_ruwai_jura_3_lirik">Sampai pantai lawok jawo</string>
+    <string name="sang_bumi_ruwai_jura_4_lirik">Pesisi khik pepadun</string>
+    <string name="sang_bumi_ruwai_jura_5_lirik">Jadi sai delom lamban</string>
+    <string name="sang_bumi_ruwai_jura_6_lirik">Lampung sai kaya-raya</string>
+    <string name="sang_bumi_ruwai_jura_7_lirik">Kihk gham haga bughasan</string>
+    <string name="sang_bumi_ruwai_jura_8_lirik">Hijau ni pumandangan</string>
+    <string name="sang_bumi_ruwai_jura_9_lirik">mhuma lada di pumatang</string>
+    <string name="sang_bumi_ruwai_jura_10_lirik">Api lagi cengkeh ni</string>
+    <string name="sang_bumi_ruwai_jura_11_lirik">Telambun behuntaian</string>
+    <string name="sang_bumi_ruwai_jura_12_lirik">Tanda  ni kemakmuran</string>
+    <string name="sang_bumi_ruwai_jura_13_lirik">Lampung sai..</string>
+    <string name="sang_bumi_ruwai_jura_14_lirik">Sang bumi ruwa jurai</string>
+    <string name="sang_bumi_ruwai_jura_15_lirik">Cangget bagha bulaku</string>
+    <string name="sang_bumi_ruwai_jura_16_lirik">Sembah jama saibatin</string>
+    <string name="sang_bumi_ruwai_jura_17_lirik">Sina gawi adat sikam</string>
+    <string name="sang_bumi_ruwai_jura_18_lirik">Manjau ghik sebambangan</string>
+    <string name="sang_bumi_ruwai_jura_19_lirik">Tari ragot khik melinting</string>
+    <string name="sang_bumi_ruwai_jura_21_lirik">Ciri ni ulun Lampung</string>
+    <string name="sang_bumi_ruwai_jura_22_lirik">Lampung sai…</string>
+    <string name="sang_bumi_ruwai_jura_23_lirik">Sang bumi ruwa jurai</string>
+
+    <string name="judul_tanoh_lado">Tanoh Lado</string>
+    <string name="tanoh_lado_1_lirik">Jak Ranau Tigoh Diteladas</string>
+    <string name="tanoh_lado_2_lirik">Jak Palas Munggak Mid Bengkunat</string>
+    <string name="tanoh_lado_3_lirik">Gunung Rimba Tiuh Pumatang</string>
+    <string name="tanoh_lado_4_lirik">Pulau-Pulau Di Lawok Lepas</string>
+    <string name="tanoh_lado_5_lirik">Bumiku Tanoh Lampung Kulawi</string>
+    <string name="tanoh_lado_6_lirik">Panjak Wawah Di Nusantagha</string>
+    <string name="tanoh_lado_7_lirik">Tani Lukun Sangon Jak Jebi</string>
+    <string name="tanoh_lado_8_lirik">Tanoh Lampungku Tanoh Lada</string>
+    <string name="tanoh_lado_9_lirik">Merga Buai Ghik Bahasa</string>
+    <string name="tanoh_lado_10_lirik">Nayah Sina Tanda Gham Kaya</string>
+    <string name="tanoh_lado_11_lirik">Adat Ghik Budaya Sukhatni Ka Ga Nga</string>
+    <string name="tanoh_lado_12_lirik">Jadi Waghisan Jama-Jama</string>
+    <string name="tanoh_lado_13_lirik">Tabikpun Jama Sai Tuha Raja</string>
+    <string name="tanoh_lado_14_lirik">Punyimbang Sebatin Semerga</string>
+    <string name="tanoh_lado_15_lirik">Salah Ghik Cempala Tiyan Sai Ngukha-Ngukha</string>
+    <string name="tanoh_lado_16_lirik">Tilik Tawai Sikam Kiluya</string>
+
+    <string name="judul_pitik_tukung">Pitik Tukung</string>
+    <string name="pitik_tukung_1_lirik">Aku duwe pitik pitik tukung</string>
+    <string name="pitik_tukung_2_lirik">Saben dina tak pakani jagung</string>
+    <string name="pitik_tukung_3_lirik">Petok gok petok petok ngendok pitu</string>
+    <string name="pitik_tukung_4_lirik">Tak ngremake netes telu</string>
+    <string name="pitik_tukung_5_lirik">Kabeh trondol trondol tanpa wulu</string>
+    <string name="pitik_tukung_6_lirik">Mondol mondol dol gawe guyu</string>
+
+    <string name="judul_te_kate_dipanah">Te Kate Dipanah</string>
+    <string name="te_kate_dipanah_1_lirik">Te kate dipanah</string>
+    <string name="te_kate_dipanah_2_lirik">Dipanah ngisor gelagah</string>
+    <string name="te_kate_dipanah_3_lirik">Ana manuk konde-onde</string>
+    <string name="te_kate_dipanah_4_lirik">Mbok sirbombok mbok sirkate</string>
+
+    <string name="judul_cik_cik_periuk">Cik Cik Periuk</string>
+    <string name="cik_cik_periuk_1_lirik">Cik cik periook bilanga sumping dari jawe</string>
+    <string name="cik_cik_periuk_2_lirik">Datang nek kecibook bawa kepiting dua</string>
+    <string name="cik_cik_periuk_2_1_lirik">ekook</string>
+    <string name="cik_cik_periuk_6_lirik">Datang nek kecibook bawa kepiting dua ekook</string>
+    <string name="cik_cik_periuk_3_lirik">Cik cik periook bilanga sumping dari jawe</string>
+    <string name="cik_cik_periuk_4_lirik">Cak cak bur dalam bilanga picak iddung</string>
+    <string name="cik_cik_periuk_4_1_lirik">gigi rongak</string>
+    <string name="cik_cik_periuk_5_lirik">Sape kitawa dolok dipancung raje tunggak</string>
+    <string name="cik_cik_periuk_5_1_lirik">hei</string>
+
+    <string name="judul_aek_kapuas">Aek Kapuas</string>
+    <string name="aek_kapuas_1_lirik">Hei...sampan laju</string>
+    <string name="aek_kapuas_2_lirik">Sampan laju dari hile sampai ke hulu</string>
+    <string name="aek_kapuas_3_lirik">Sungai Kapuas</string>
+    <string name="aek_kapuas_4_lirik">Sunggoh panjang dari dolo membelah kote</string>
+    <string name="aek_kapuas_5_lirik">Hei...tak disangke</string>
+    <string name="aek_kapuas_6_lirik">Tak disangke dolo hutan menjadi kote</string>
+    <string name="aek_kapuas_7_lirik">Ramai pendudoknye</string>
+    <string name="aek_kapuas_8_lirik">Pontianak name kotenye</string>
+    <string name="aek_kapuas_9_lirik">Sungai Kapuas punye cerite</string>
+    <string name="aek_kapuas_10_lirik">Bile kite minom aeknye</string>
+    <string name="aek_kapuas_11_lirik">Biar pon pegi jaoh kemane</string>
+    <string name="aek_kapuas_12_lirik">Sunggoh susah nak ngelupakkannye</string>
+    <string name="aek_kapuas_13_lirik">Hei...Kapuas</string>
+
+    <string name="judul_alon_alon">Alon Alon</string>
+    <string name="alon_alon_1_lirik">Alon-alon</string>
+    <string name="alon_alon_2_lirik">Gelumbang alon</string>
+    <string name="alon_alon_3_lirik">Timun kattok di pung ka tiang</string>
+    <string name="alon_alon_4_lirik">Bangun, bangun, nak dare bangun</string>
+    <string name="alon_alon_5_lirik">Ayam bekukkuk ari na siang </string>
+    <string name="alon_alon_6_lirik">Buah pedare berumbak umbai</string>
+    <string name="alon_alon_7_lirik">Berumbak rumbai si tujuh ige</string>
+    <string name="alon_alon_8_lirik">Anak dare turun belimbai</string>
+    <string name="alon_alon_9_lirik">Turun belimbai ampat beradek</string>
+    <string name="alon_alon_10_lirik">Nang tue bebaju gadong</string>
+    <string name="alon_alon_11_lirik">Nang tangah betapeh serong</string>
+    <string name="alon_alon_12_lirik">Nang katcik besubang gading</string>
+    <string name="alon_alon_13_lirik">Nang bussu sanggul ti sedeng</string>
+
+    <string name="judul_tumpi_wayu">Tumpi Wayu</string>
+    <string name="tumpi_wayu_1_lirik">Tumpi wayu lapat wayu</string>
+    <string name="tumpi_wayu_2_lirik">Palit ira tangku ranan</string>
+    <string name="tumpi_wayu_3_lirik">Tolak hanyu moneng aku</string>
+    <string name="tumpi_wayu_4_lirik">Kala wurung balu layan</string>
+
+    <string name="judul_naluya">Naluya</string>
+    <string name="naluya_1_lirik">Hie isa yaro hanye hoan taro</string>
+    <string name="naluya_2_lirik">Hie isa yanai hanye hoan tunai</string>
+    <string name="naluya_3_lirik">Geresa hanye anak ku kalelo</string>
+    <string name="naluya_4_lirik">Geresa hanye bun suku kahesan</string>
+    <string name="naluya_5_lirik">Anakku kalele, Bun suku kasan</string>
+
+    <string name="judul_palu_lempang_pupoi">Palu Lempang Pupoi</string>
+    <string name="palu_lempang_pupoi_1_lirik">Pupoi lempang pupoi apo</string>
+    <string name="palu_lempang_pupoi_2_lirik">mantan lempang pupoi la apo</string>
+    <string name="palu_lempang_pupoi_3_lirik">mantan la lempang pupoi </string>
+
+    <string name="judul_ampar_ampar_pisang">Ampar Ampar Pisang</string>
+    <string name="ampar_ampar_pisang_1_lirik">Ampar ampar pisang</string>
+    <string name="ampar_ampar_pisang_2_lirik">Pisangku balum masak</string>
+    <string name="ampar_ampar_pisang_3_lirik">Masak sabigi dihurung bari-bari</string>
+    <string name="ampar_ampar_pisang_4_lirik">Mangga lepak mangga lepok</string>
+    <string name="ampar_ampar_pisang_5_lirik">Patah kayu bengkok</string>
+    <string name="ampar_ampar_pisang_6_lirik">Bengkok dimakan api, apinya canculupan</string>
+    <string name="ampar_ampar_pisang_7_lirik">Nang mana batis kutung dikitip bidawang</string>
+
+    <string name="judul_paris_barantai">Paris Barantai</string>
+    <string name="paris_barantai_1_lirik">Wayah pang sudah</string>
+    <string name="paris_barantai_2_lirik">Hari baganti musim</string>
+    <string name="paris_barantai_3_lirik">Wayah pang sudah</string>
+    <string name="paris_barantai_4_lirik">Kota baru gunungnya Bamega</string>
+    <string name="paris_barantai_5_lirik">Bamega umbak manampur di sala</string>
+    <string name="paris_barantai_5_1_lirik">karang</string>
+    <string name="paris_barantai_6_lirik">Umbak manampur di sala karang</string>
+    <string name="paris_barantai_7_lirik">Batamu lawanlah adinda</string>
+    <string name="paris_barantai_8_lirik">Adinda iman di dada rasa malayang</string>
+    <string name="paris_barantai_9_lirik">Iman di dada rasa malayang</string>
+    <string name="paris_barantai_10_lirik">Pisang silat tanamlah babaris</string>
+    <string name="paris_barantai_11_lirik">Babaris tabang pang bamban</string>
+    <string name="paris_barantai_11_1_lirik">kuhalangakan</string>
+    <string name="paris_barantai_12_lirik">Tabang pang bamban kuhalangakan</string>
+    <string name="paris_barantai_13_lirik">Bahalat gununglah babaris</string>
+    <string name="paris_barantai_14_lirik">Babaris hatiku dandam kusalangakan</string>
+    <string name="paris_barantai_15_lirik">Hatiku dandam kusalangakan</string>
+    <string name="paris_barantai_16_lirik">Burung binti batiti di batang</string>
+    <string name="paris_barantai_17_lirik">Di batang si batang buluh kuning</string>
+    <string name="paris_barantai_17_1_lirik">manggading</string>
+    <string name="paris_barantai_18_lirik">Si batang buluh kuning manggading</string>
+    <string name="paris_barantai_19_lirik">Malam tadi bamimpilah datang</string>
+    <string name="paris_barantai_20_lirik">Rasa datang rasa bapaluk lawan si ading</string>
+    <string name="paris_barantai_21_lirik">Rasa bapaluk lawan si ading</string>
+    <string name="paris_barantai_22_lirik">Kacilangan lampulah di kapal</string>
+    <string name="paris_barantai_23_lirik">Di kapal anak Walanda main komidi</string>
+    <string name="paris_barantai_24_lirik">Anak Walanda main komidi</string>
+    <string name="paris_barantai_25_lirik">Kasiangan guringlah sabantal</string>
+    <string name="paris_barantai_26_lirik">Sabantal tangan ka dada hidung ka pipi</string>
+    <string name="paris_barantai_27_lirik">Tangan ka dada hidung ka pipi</string>
+
+    <string name="judul_apuse">Apuse</string>
+    <string name="apuse_1_lirik">Apuse kokon dao yarabe soren doreri</string>
+    <string name="apuse_2_lirik">Wuf lenso baninema baki pase</string>
+    <string name="apuse_3_lirik">Ara fabye aswara kwar</string>
+
+    <string name="judul_yamko_rambe">Rambe Yamko</string>
+    <string name="yamko_rambe_1_lirik">Hee… yamko rambe yamko…</string>
+    <string name="yamko_rambe_2_lirik">Aronawa kombe</string>
+    <string name="yamko_rambe_3_lirik">Teeminokibe kubano kobumbeko, yumano bungo awe ade…</string>
+    <string name="yamko_rambe_4_lirik">Hongke…hongke…</string>
+    <string name="yamko_rambe_5_lirik">Hongke riro…</string>
+    <string name="yamko_rambe_6_lirik">Hongke</string>
+    <string name="yamko_rambe_7_lirik">Jombe riro…</string>
+
+    <string name="judul_sajojo">Sajojo</string>
+    <string name="sajojo_1_lirik">Sajojo sajojo</string>
+    <string name="sajojo_2_lirik">Yumanampo miso na</string>
+    <string name="sajojo_3_lirik">Samuna muna muna keke</string>
+    <string name="sajojo_4_lirik">Kuserai kusaserai rai rai rai rai</string>
+    <string name="sajojo_5_lirik">Inamgo mikim ye</string>
+    <string name="sajojo_6_lirik">pio sore piasa sore</string>
+
+    <string name="judul_rasa_sayange">Rasa Sayange</string>
+    <string name="rasa_sayange_1_lirik">Rasa sayange, rasa sayang sayange </string>
+    <string name="rasa_sayange_2_lirik">Eee... Lihat dari jauh rasa sayang sayange</string>
+    <string name="rasa_sayange_3_lirik">Kalau ada sumur di ladang</string>
+    <string name="rasa_sayange_4_lirik">boleh kita menumpang mandi</string>
+    <string name="rasa_sayange_5_lirik">Kalau ada umurku panjang boleh kita</string>
+    <string name="rasa_sayange_6_lirik">bertemu lagi</string>
+
+    <string name="judul_burung_kakatua">Burung Kakatua</string>
+    <string name="burung_kakatua_1_lirik">Burung kakak tua</string>
+    <string name="burung_kakatua_2_lirik">Hinggap di jendela</string>
+    <string name="burung_kakatua_3_lirik">Nenek sudah tua</string>
+    <string name="burung_kakatua_4_lirik">Giginya tinggal dua</string>
+    <string name="burung_kakatua_5_lirik">Trek-jing... Trek-jing</string>
+    <string name="burung_kakatua_6_lirik">Trek-jing tralala...</string>
+
+    <string name="judul_naik_naik_ke_puncak_gunung">Naik Naik ke Puncak Gunung</string>
+    <string name="naik_naik_ke_puncak_gunung_1_lirik">Naik naik ke puncak gunung</string>
+    <string name="naik_naik_ke_puncak_gunung_2_lirik">tinggi.. tinggi sekali...</string>
+    <string name="naik_naik_ke_puncak_gunung_3_lirik">kiri.. kanan.. kulihat saja..</string>
+    <string name="naik_naik_ke_puncak_gunung_4_lirik">Banyak.. pohon.. cemara.... </string>
+
+    <string name="judul_gemu_fa_mi_re">Gemu Fa Mi Re</string>
+    <string name="gemu_fa_mi_re_1_lirik">Maumere da gale kota Ende</string>
+    <string name="gemu_fa_mi_re_2_lirik">Pepin gisong gasong</string>
+    <string name="gemu_fa_mi_re_3_lirik">Le le luk ele rebin ha </string>
+    <string name="gemu_fa_mi_re_4_lirik">La le le luk sila sol mi fa mi fa sol</string>
+    <string name="gemu_fa_mi_re_5_lirik">Le le tiding fa fa rebing mude mi</string>
+    <string name="gemu_fa_mi_re_6_lirik">Do do do do mi do mi do gemu fa mi re</string>
+    <string name="gemu_fa_mi_re_7_lirik">Ele le ele le ele le le le le</string>
+    <string name="gemu_fa_mi_re_8_lirik">La le le luk sila sol mi fa mi fa sol</string>
+    <string name="gemu_fa_mi_re_9_lirik">Le le tiding fa fa rebing mude mi</string>
+    <string name="gemu_fa_mi_re_10_lirik">Do do do do mi do mi do gemu fa mi re</string>
+    <string name="gemu_fa_mi_re_11_lirik">Putar ke kiri e Nona manis putarlah</string>
+    <string name="gemu_fa_mi_re_12_lirik">Ke kiri ke kiri ke kiri ke kiri dan</string>
+    <string name="gemu_fa_mi_re_13_lirik">Ke kiri ke kiri ke kiri ke kiri manis e </string>
+    <string name="gemu_fa_mi_re_14_lirik">Sekarang kanan e Nona manis putarlah</string>
+    <string name="gemu_fa_mi_re_15_lirik">Ke kanan ke kanan ke kanan ke kanan dan</string>
+    <string name="gemu_fa_mi_re_16_lirik">Ke kanan ke kanan ke kanan</string>
+    <string name="gemu_fa_mi_re_17_lirik">Ke kanan manis e </string>
+
+    <string name="judul_potok_bebek_angsa">Potong Bebek Angsa</string>
+    <string name="potok_bebek_angsa_1_lirik">Potong bebek angsa</string>
+    <string name="potok_bebek_angsa_2_lirik">masak di kuali</string>
+    <string name="potok_bebek_angsa_3_lirik">Nona minta dansa</string>
+    <string name="potok_bebek_angsa_4_lirik">dansa empat kali,</string>
+    <string name="potok_bebek_angsa_5_lirik">Dorong ke kiri, dorong ke kanan</string>
+    <string name="potok_bebek_angsa_6_lirik">La la la la la la la la ...</string>
+
+    <string name="judul_anak_kambing_saya">Anak Kambing Saya</string>
+    <string name="anak_kambing_saya_1_lirik">mana dimana anak kambing saya</string>
+    <string name="anak_kambing_saya_2_lirik">anak kambing tuan ada di pohon waru</string>
+    <string name="anak_kambing_saya_3_lirik">mana dimana jantung hati saya</string>
+    <string name="anak_kambing_saya_4_lirik">jantung hati tuan ada di kampung baru</string>
+    <string name="anak_kambing_saya_5_lirik">caca marica he hei</string>
+    <string name="anak_kambing_saya_6_lirik">caca marica ada di kampung baru</string>
+
+    <string name="judul_macepet_cepetan">Macepet Cepetan</string>
+    <string name="macepet_cepetan_1_lirik">Jani mlati macepet-cepetan</string>
+    <string name="macepet_cepetan_2_lirik">Nanging limane tusing dadi matiang…</string>
+    <string name="macepet_cepetan_3_lirik">Sejaba ento mekajang dadi</string>
+    <string name="macepet_cepetan_4_lirik">Nyenje kalah lakar gedhing</string>
+
+    <string name="judul_dewa_ayu">Dewa Ayu</string>
+    <string name="dewa_ayu_1_lirik">Dewa ayu ya ya dewa ayu</string>
+    <string name="dewa_ayu_2_lirik">margi I Ratu mesolah mesolah mabulu wangsul</string>
+    <string name="dewa_ayu_3_lirik">Hulu hulu wangsul ya ya hulu hulu wangsul</string>
+    <string name="dewa_ayu_4_lirik">Telan jake cara Jawa memayog cara den bukit</string>
+
+    <string name="judul_meyong_meyong">Meyong Meyong</string>
+    <string name="meyong_meyong_1_lirik">Meyong-meyong alih je bikule</string>
+    <string name="meyong_meyong_2_lirik">Bikul gede–gede buwin mokoh-mokoh</string>
+    <string name="meyong_meyong_3_lirik">Kereng pesan ngerusuhi</string>
+
+    <string name="judul_ma_rencong">Ma Rencong</string>
+    <string name="ma_rencong_1_lirik">Marencong rencong kelongku</string>
+    <string name="ma_rencong_2_lirik">Marencong rencong marencong rencong</string>
+    <string name="ma_rencong_3_lirik">Kelong nipassama riya, nakukelongang</string>
+    <string name="ma_rencong_3_1_lirik">atu dendang baule</string>
+    <string name="ma_rencong_4_lirik">Natupare pangurangi, lontaja eja menjo</string>
+    <string name="ma_rencong_5_lirik">Owe dendanga da dum ba</string>
+    <string name="ma_rencong_6_lirik">owe para mata bengko na</string>
+
+    <string name="judul_pakarena">Pakarena</string>
+    <string name="pakarena_1_lirik">Ika teri tura tea bau</string>
+    <string name="pakarena_2_lirik">Adat taman io loa sayang</string>
+    <string name="pakarena_3_lirik">E aule pakarenaya</string>
+    <string name="pakarena_4_lirik">Pakarenaya labiriri pagaukang</string>
+    <string name="pakarena_5_lirik">Ika tebu tara teang sayang</string>
+    <string name="pakarena_6_lirik">Punania pagaukang sayang</string>
+    <string name="pakarena_7_lirik">E aule suku Bajina</string>
+    <string name="pakarena_8_lirik">suku Bajina punania pakarena</string>
+    <string name="pakarena_9_lirik">Pura raba piu rukang sayang</string>
+    <string name="pakarena_10_lirik">Baju Bodo kaun lolo sayang</string>
+    <string name="pakarena_11_lirik">E aule suku Bajina</string>
+    <string name="pakarena_12_lirik">Suku Bajina punania ke anggada</string>
+
+    <string name="judul_jali_jali">Jali Jali</string>
+    <string name="jali_jali_1_lirik">ini dia si jali-jali</string>
+    <string name="jali_jali_2_lirik">lagunya enak lagunya enak merdu</string>
+    <string name="jali_jali_2_1_lirik">sekali</string>
+    <string name="jali_jali_3_lirik">capek sedikit tidak perduli sayang</string>
+    <string name="jali_jali_4_lirik">asalkan tuan asalkan tuan senang di hati</string>
+    <string name="jali_jali_5_lirik">palinglah enak si mangga udang</string>
+    <string name="jali_jali_6_lirik">sayang disayang pohonnya tinggi</string>
+    <string name="jali_jali_6_1_lirik">pohonnya tinggi buahnya jarang</string>
+    <string name="jali_jali_7_lirik">palinglah enak si orang bujang sayang</string>
+    <string name="jali_jali_8_lirik">kemana pergi kemana pergi tiada yang melarang</string>
+    <string name="jali_jali_9_lirik">disana gunung disini gunung</string>
+    <string name="jali_jali_10_lirik">hei sayang disayang ditengah tengah</string>
+    <string name="jali_jali_10_1_lirik">ditengah tengah kembang melati</string>
+    <string name="jali_jali_11_lirik">disana bingung disini bingung sayang</string>
+    <string name="jali_jali_12_lirik">samalah sama samalah sama menaruh hati</string>
+    <string name="jali_jali_13_lirik">jalilah jali dari cikini sayang</string>
+    <string name="jali_jali_14_lirik">jali-jali dari cikini jalilah jali sampai disini</string>
+
+    <string name="judul_tari_tanggai">Tari Tanggai</string>
+    <string name="tari_tanggai_1_lirik">Lemah lembut lemah lembut</string>
+    <string name="tari_tanggai_2_lirik">Tangan gemulai gemulai</string>
+    <string name="tari_tanggai_3_lirik">Jari –jari yang menari halus semampai</string>
+    <string name="tari_tanggai_4_lirik">Anak dara yang manis</string>
+    <string name="tari_tanggai_5_lirik">Bidadari rupawan sedang asyik</string>
+    <string name="tari_tanggai_5_1_lirik">manari tari tanggai</string>
+
+    <string name="judul_tana_wulio">Tana Wulio</string>
+    <string name="tana_wulio_1_lirik">tana wolio liwuto bau</string>
+    <string name="tana_wulio_2_lirik">bura satongka auwalina</string>
+    <string name="tana_wulio_3_lirik">iweitumo tana minaaku</string>
+    <string name="tana_wulio_4_lirik">lembokanaa moraaku</string>
+    <string name="tana_wulio_5_lirik">tula - tula morikana</string>
+    <string name="tana_wulio_6_lirik">kumalinguakamea</string>
+    <string name="tana_wulio_7_lirik">tabeana mancuana</string>
+    <string name="tana_wulio_8_lirik">bemo sau - saua</string>
+    <string name="tana_wulio_9_lirik">tana wolio lape - lapea</string>
+    <string name="tana_wulio_10_lirik">ingkita dadi mangura</string>
+
+    <string name="judul_si_patokaan">Si Patokaan</string>
+    <string name="si_patokaan_1_lirik">Sayang sayang si patokaan</string>
+    <string name="si_patokaan_2_lirik">Matego tego gorokan sayang</string>
+    <string name="si_patokaan_3_lirik">Sako mangemo tanah man jauh</string>
+    <string name="si_patokaan_4_lirik">Mangemo milei leklako sayang</string>
+
+    <string name="judul_o_ina_ni_keke">O Ina Ni Keke</string>
+    <string name="o_ina_ni_keke_1_lirik">o ina ni keke, mangewi sako</string>
+    <string name="o_ina_ni_keke_2_lirik">mangewa ki wenang, tumeles baleko</string>
+    <string name="o_ina_ni_keke_3_lirik">o ina ni keke, wehanei toyo</string>
+    <string name="o_ina_ni_keke_4_lirik">raimo siapa ketare mahalei</string>
+    <string name="o_ina_ni_keke_5_lirik">we ane, we ane, we ane toyo</string>
+    <string name="o_ina_ni_keke_6_lirik">daimo siapa kotare makiwe</string>
+    <string name="o_ina_ni_keke_7_lirik">we ane, we ane, we ane toyo</string>
+    <string name="o_ina_ni_keke_8_lirik">daimo siapa kotare makiwe</string>
+
+    <string name="judul_esa_mokan">Esa Mokan</string>
+    <string name="esa_mokan_1_lirik">Esa mokan genangku wia niko</string>
+    <string name="esa_mokan_2_lirik">Tea mo ma rua rua genang e karia</string>
+    <string name="esa_mokan_3_lirik">Mengalei ngalei uman wia si Opo Wailan</string>
+    <string name="esa_mokan_4_lirik">Pakatuan pakalawiren kita nu waya</string>
+    <string name="esa_mokan_5_lirik">Pakatuan pakalawiren wiya niko</string>
+
+    <string name="judul_indung_indung">Indung Indung</string>
+    <string name="indung_indung_1_lirik">indung indung kepala lindung</string>
+    <string name="indung_indung_2_lirik">hujan di udik disini mendung </string>
+    <string name="indung_indung_3_lirik">anak siapa pakai kerudung </string>
+    <string name="indung_indung_4_lirik">mata melirik kaki tersandung </string>
+    <string name="indung_indung_5_lirik">la haula wala kuwwata</string>
+    <string name="indung_indung_6_lirik">mata melihat seperti buta</string>
+    <string name="indung_indung_7_lirik">tiada daya tiada upaya </string>
+    <string name="indung_indung_8_lirik">melainkan tuhan yang maha esa </string>
+    <string name="indung_indung_9_lirik">aduh aduh siti aisyah </string>
+    <string name="indung_indung_10_lirik">mandi di kali rambutnya basah </string>
+    <string name="indung_indung_11_lirik">tidak sembahyang tidak puasa </string>
+    <string name="indung_indung_12_lirik">didalam kubur mendapat siksa </string>
+    <string name="indung_indung_13_lirik">duduk goyang di kursi goyang </string>
+    <string name="indung_indung_14_lirik">  beduk subuh hampir siang </string>
+    <string name="indung_indung_15_lirik">bangunkan ibu suruh sembahyang</string>
+    <string name="indung_indung_16_lirik">  jadilah anak yang tersayang </string>
+
+    <string name="judul_tasipak_rinjeng">Tasipak Rinjeng</string>
+    <string name="tasipak_rinjeng_1_lirik">tasipak_rinjeng</string>
+    <string name="tasipak_rinjeng_2_lirik">gawiannya cari bibinian</string>
+    <string name="tasipak_rinjeng_3_lirik">siang malam mabuk - mabukan</string>
+    <string name="tasipak_rinjeng_4_lirik">minuman … . arak campuran</string>
+    <string name="tasipak_rinjeng_5_lirik">malam sabtu aku kada datang</string>
+    <string name="tasipak_rinjeng_6_lirik">mandatangi si tukang warung</string>
+    <string name="tasipak_rinjeng_7_lirik">malam minggu aku hanyar datang</string>
+    <string name="tasipak_rinjeng_8_lirik">manghabiskan duit kawitan</string>
+    <string name="tasipak_rinjeng_9_lirik">paninian sudah katuha an</string>
+    <string name="tasipak_rinjeng_10_lirik">kana banyu sidin kedinginan</string>
+    <string name="tasipak_rinjeng_11_lirik">kalau pada kawa dimandikan</string>
+    <string name="tasipak_rinjeng_12_lirik">langsung haja dicabur akan. .uuww</string>
+    <string name="tasipak_rinjeng_13_lirik">di padang hutan aku bagawi</string>
+    <string name="tasipak_rinjeng_14_lirik">mencari duit hasilnya</string>
+    <string name="tasipak_rinjeng_15_lirik">… pacang minuman</string>
+    <string name="tasipak_rinjeng_16_lirik">wadah banyanyi dalam karaoke</string>
+    <string name="tasipak_rinjeng_17_lirik">tuha wan anum nyanyinya</string>
+    <string name="tasipak_rinjeng_18_lirik">… . baganti - ganti . . ow</string>
+    <string name="tasipak_rinjeng_19_lirik"> leng jujuleleng</string>
+    <string name="tasipak_rinjeng_20_lirik">minumnya di topi miring</string>
+    <string name="tasipak_rinjeng_21_lirik">leng tajujuling</string>
+    <string name="tasipak_rinjeng_22_lirik">naik karumah tajajak piring</string>
+    <string name="tasipak_rinjeng_23_lirik">naik karumah tasipak rinjeng</string>
+    <string name="tasipak_rinjeng_24_lirik">aku tak mau jikalau jualan buntut</string>
+    <string name="tasipak_rinjeng_25_lirik">di tangkap pak polisi</string>
+    <string name="tasipak_rinjeng_26_lirik">hukumannya setengah mati</string>
+    <string name="tasipak_rinjeng_27_lirik">lebih baik aku banyanyi</string>
+    <string name="tasipak_rinjeng_28_lirik">anak - anak suka sekali</string>
+    <string name="tasipak_rinjeng_29_lirik">anak - anak suka sekali . auw tarik</string>
+
+    <string name="judul_sapu_tangan_bapucu_ampat">Sapu Tangan Bapucu Ampat</string>
+    <string name="sapu_tangan_bapucu_ampat_1_lirik">sapu tangan bapucu ampat</string>
+    <string name="sapu_tangan_bapucu_ampat_2_lirik">Sapuncunya dimakan api</string>
+    <string name="sapu_tangan_bapucu_ampat_3_lirik">Dimakan api</string>
+    <string name="sapu_tangan_bapucu_ampat_4_lirik">Luka nang di tangan kawa dibabat</string>
+    <string name="sapu_tangan_bapucu_ampat_5_lirik">Luka nang di hati hancur sekali</string>
+    <string name="sapu_tangan_bapucu_ampat_6_lirik">Tabang bamban jangan di parit</string>
+    <string name="sapu_tangan_bapucu_ampat_7_lirik">Mun di parit buang ka sumur</string>
+    <string name="sapu_tangan_bapucu_ampat_8_lirik">Buang ka sumur</string>
+    <string name="sapu_tangan_bapucu_ampat_9_lirik">Rindang pangandang jangan di harit</string>
+    <string name="sapu_tangan_bapucu_ampat_10_lirik">Lamun di harit membawa umur</string>
+
+    <string name="judul_jereh_bu_guru">Jereh Bu Guru</string>
+    <string name="jereh_bu_guru_1_lirik">Jereh bu guru, Dadi bocah kudu nurut</string>
+    <string name="jereh_bu_guru_1_1_lirik">ning wong tue</string>
+    <string name="jereh_bu_guru_2_lirik">Jereh bu guru, Dadi bocah kudu </string>
+    <string name="jereh_bu_guru_2_1_lirik">gelem akeh belajar</string>
+    <string name="jereh_bu_guru_3_lirik">Supaye engko dadi wong soleh</string>
+    <string name="jereh_bu_guru_3_1_lirik">Sing akeh il-mune</string>
+    <string name="jereh_bu_guru_4_lirik">Supaye engko dadi menuse</string>
+    <string name="jereh_bu_guru_4_1_lirik">Sing akeh gunane</string>
+
+    <string name="judul_palu_ngataku">Palu Ngataku</string>
+    <string name="palu_ngataku_1_lirik">Palu ngataku, Ponturo ntupuku</string>
+    <string name="palu_ngataku_2_lirik">sampe nomakumpu</string>
+    <string name="palu_ngataku_3_lirik">Ponturo ntuamaku, Ante tinaku</string>
+    <string name="palu_ngataku_4_lirik">ante sararaku</string>
+    <string name="palu_ngataku_5_lirik">Dako ringgauluna</string>
+    <string name="palu_ngataku_6_lirik">Nato lelemo sangana</string>
+    <string name="palu_ngataku_7_lirik">nadea haselena</string>
+    <string name="palu_ngataku_8_lirik">Ngataku nasugi, Ngataku nagaya</string>
+    <string name="palu_ngataku_9_lirik">karona ritatangana</string>
+    <string name="palu_ngataku_10_lirik">Ane rireme nuvula</string>
+    <string name="palu_ngataku_11_lirik">Ritalinti bonaroa</string>
+    <string name="palu_ngataku_12_lirik">Najadi niposintomuka</string>
+    <string name="palu_ngataku_13_lirik">Randa nte kabilasa</string>
+    <string name="palu_ngataku_14_lirik">Rikamatayona, Nte rikasoloana</string>
+    <string name="palu_ngataku_15_lirik">naroso kasintuvuna</string>
+    <string name="palu_ngataku_16_lirik">Mau yaku ringatan ntona</string>
+    <string name="palu_ngataku_17_lirik">Ngatan ntona naroa</string>
+    <string name="palu_ngataku_18_lirik">Palu kana ko tora tora</string>
+
+    <string name="judul_pulo_karampuang">Pulo Karampuang</string>
+    <string name="pulo_karampuang_1_lirik">oh pulo karampuang</string>
+    <string name="pulo_karampuang_2_lirik">di alona mamuju</string>
+    <string name="pulo_karampuang_3_lirik">merio-rio nikita di wattu</string>
+    <string name="pulo_karampuang_4_lirik">simbar karampuang</string>
+    <string name="pulo_karampuang_5_lirik">karaomo lampana tonisenga di ate</string>
+    <string name="pulo_karampuang_6_lirik">ateku rapang nikojo</string>
+    <string name="pulo_karampuang_7_lirik">bennu bulo pammoso</string>
+    <string name="pulo_karampuang_8_lirik">pallarina utara</string>
+    <string name="pulo_karampuang_9_lirik">situru-turu salatang</string>
+    <string name="pulo_karampuang_10_lirik">pangkata nda ko di ia</string>
+    <string name="pulo_karampuang_11_lirik">di tomarao</string>
+
+    <string name="judul_buah_bolok">Buah Bolok</string>
+    <string name="buah_bolok_1_lirik">Buah bolok kuranji papan</string>
+    <string name="buah_bolok_2_lirik">Dimakan mabok dibuang sayang</string>
+    <string name="buah_bolok_3_lirik">Busu embok etam kumpulkan</string>
+    <string name="buah_bolok_4_lirik">Rumah-rumah jabok etam lestarikan</string>
+    <string name="buah_bolok_5_lirik">Buah salak muda diperam</string>
+    <string name="buah_bolok_6_lirik">Dimakan kelat dibuang sayang</string>
+    <string name="buah_bolok_7_lirik">Spupu dengsanak etam kumpulkan</string>
+    <string name="buah_bolok_8_lirik">Untuk menyambut wisatawan</string>
+    <string name="buah_bolok_9_lirik">Buah terong digangan nyaman</string>
+    <string name="buah_bolok_10_lirik">Jukut blanak tolong panggangkan</string>
+    <string name="buah_bolok_11_lirik">Musium Tenggarong Mulawarman</string>
+    <string name="buah_bolok_12_lirik">Buah bolok kuranji papan</string>
+    <string name="buah_bolok_13_lirik">Dimakan mabok dibuang sayang</string>
+    <string name="buah_bolok_14_lirik">Keroan kanak sekampongan</string>
+    <string name="buah_bolok_15_lirik">Etam begantar bejepenan</string>
+
+    <string name="judul_ayo_mama">Ayo Mama</string>
+    <string name="ayo_mama_1_lirik">Ayam Hitam telurnya Putih</string>
+    <string name="ayo_mama_2_lirik">Mencari makan di pinggir kali</string>
+    <string name="ayo_mama_3_lirik">Sinyo Hitam giginya Putih</string>
+    <string name="ayo_mama_4_lirik">Kalau tertawa manis sekali</string>
+    <string name="ayo_mama_5_lirik">Ayo mama...</string>
+    <string name="ayo_mama_6_lirik">Jangan mama marah beta</string>
+    <string name="ayo_mama_7_lirik">Dia cuma cuma pegang beta</string>
+    <string name="ayo_mama_8_lirik">Janganlah mama marah beta</string>
+    <string name="ayo_mama_9_lirik">Lah orang muda biasa</string>
+
+    <string name="judul_sarinande">Sarinande</string>
+    <string name="sarinande_1_lirik">Sarinandé</string>
+    <string name="sarinande_2_lirik">Putri Sarinandé</string>
+    <string name="sarinande_3_lirik">Mangapa nangis matamu bengkak</string>
+    <string name="sarinande_4_lirik">Aduh mama aduhlah papa</string>
+    <string name="sarinande_5_lirik">Bakasap api masuklah di mata</string>
+
+    <string name="judul_poco_poco">Poco Poco</string>
+    <string name="poco_poco_1_lirik">balenggang pata pata</string>
+    <string name="poco_poco_2_lirik">ngana pegoyang pica pica</string>
+    <string name="poco_poco_3_lirik">ngana pe bodi poco poco</string>
+    <string name="poco_poco_4_lirik">cuma ngana yang kita cinta</string>
+    <string name="poco_poco_5_lirik">cuma ngana yang kita sayang</string>
+    <string name="poco_poco_6_lirik">cuma ngana suka bikin pusing</string>
+    <string name="poco_poco_7_lirik">ngana bilang kita na sayang</string>
+    <string name="poco_poco_8_lirik">rasa hati ini melayang</string>
+    <string name="poco_poco_9_lirik">jauh...cija</string>
+    <string name="poco_poco_10_lirik">biar ngana kita pe bayang</string>
+    <string name="poco_poco_11_lirik">biar na bikin layang layang</string>
+    <string name="poco_poco_12_lirik">cuma ngana yang kita sayang</string>
+
+    <string name="judul_bebilin">Bebilin</string>
+    <string name="bebilin_1_lirik">Inindang inindang</string>
+    <string name="bebilin_2_lirik">Iyadu yaki bebilin yadu yaki</string>
+    <string name="bebilin_3_lirik">Bebilin yadu yaki</string>
+    <string name="bebilin_4_lirik">Suboi no labu be dilit</string>
+    <string name="bebilin_5_lirik">Penembayud ke de pikir</string>
+    <string name="bebilin_6_lirik">Impang de lunas incuai</string>
+    <string name="bebilin_7_lirik">Manong ku te ganak kandis</string>
+    <string name="bebilin_8_lirik">Layau pe gadan ku gino</string>
+    <string name="bebilin_9_lirik">Tembelayan awoi lumot</string>
+    <string name="bebilin_10_lirik">Batang tembaloi ku gino</string>
+    <string name="bebilin_11_lirik">Sapu tangan jingga-jingga</string>
+    <string name="bebilin_12_lirik">Mapit ke gulu injakin</string>
+    <string name="bebilin_13_lirik">Bowoi no kati intamu</string>
+    <string name="bebilin_14_lirik">Betapap maya bedidang</string>
+
+    <string name="judul_e_mambo_simbo">E Mambo Simbo</string>
+    <string name="e_mambo_simbo_1_lirik">E Mambo Simbo E</string>
+    <string name="e_mambo_simbo_2_lirik">E...Mambo Simbo</string>
+    <string name="e_mambo_simbo_3_lirik">Mambo yaya yaya e...</string>
+    <string name="e_mambo_simbo_4_lirik">E...Mambo yaya yaya e</string>
+
+    <string name="judul_tutu_koda">Tutu Koda</string>
+    <string name="tutu_koda_1_lirik">O ina beten melewan lau doan</string>
+    <string name="tutu_koda_2_lirik">O ina saren motanan rae lela</string>
+    <string name="tutu_koda_3_lirik">Panadi maan tun pulo pai getan</string>
+    <string name="tutu_koda_4_lirik">Rawe di maan wulan le mamatan</string>
+    <string name="tutu_koda_5_lirik">Mo aman langsung ke nobo taran bala</string>
+    <string name="tutu_koda_6_lirik">Kemata lali go ena lalo dang</string>
+    <string name="tutu_koda_7_lirik">Naku mo pana di mulo duli tukang</string>
+    <string name="tutu_koda_8_lirik">Paten moi betu beri buratu</string>
+
+</resources>

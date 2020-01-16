@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+                <ScrollView
+                    android:id="@+id/ngetestcoeg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="160dp">
+
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_e_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_1_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_a_minor"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_2_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_c"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="@string/bungo_jeumpa_3_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_e_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_1_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_a_minor"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_2_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_c"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="@string/bungo_jeumpa_3_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_e_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_4_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_5_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_e"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_6_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_7_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_8_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_e"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="@string/bungo_jeumpa_9_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_10_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_a_minor"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/bungo_jeumpa_11_lirik"
+                    android:textSize="16sp"
+                    android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_c"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="@string/bungo_jeumpa_12_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_e_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_4_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_a_minor"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_5_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/akor_e"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/bungo_jeumpa_6_lirik"
+                        android:textSize="16sp"
+                        android:textColor="#000000"
+                        android:layout_marginBottom="15dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#009688">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/judul_bungo_jeumpa"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="45dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

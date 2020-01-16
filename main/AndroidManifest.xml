@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gandara">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".About" />
+        <activity android:name=".Guitar" />
+        <activity android:name=".AkorMajor" />
+        <activity android:name=".AkorMinor" />
+        <activity android:name=".Akor5" />
+        <activity android:name=".Akor7" />
+        <activity android:name=".Nusantara" />
+        <activity android:name=".Internasional" />
+        <activity android:name=".ChordDaerah" />
+        <activity android:name=".Aceh" />
+        <activity android:name=".Bali" />
+        <activity android:name=".Banten" />
+        <activity android:name=".Bengkulu" />
+        <activity android:name=".Gorontalo" />
+        <activity android:name=".Jakarta" />
+        <activity android:name=".Jambi" />
+        <activity android:name=".JawaBarat" />
+        <activity android:name=".JawaTengah" />
+        <activity android:name=".JawaTimur" />
+        <activity android:name=".KalimantanBarat" />
+        <activity android:name=".KalimantanSelatan" />
+        <activity android:name=".KalimantanTengah" />
+        <activity android:name=".KalimantanTimur" />
+        <activity android:name=".KalimantanUtara" />
+        <activity android:name=".KepulauanBangkaBelitung" />
+        <activity android:name=".KepulauanRiau" />
+        <activity android:name=".Lampung" />
+        <activity android:name=".Maluku" />
+        <activity android:name=".MalukuUtara" />
+        <activity android:name=".NusaTenggaraBarat" />
+        <activity android:name=".NusaTenggaraTimur" />
+        <activity android:name=".Papua" />
+        <activity android:name=".PapuaBarat" />
+        <activity android:name=".Riau" />
+        <activity android:name=".SulawesiBarat" />
+        <activity android:name=".SulawesiSelatan" />
+        <activity android:name=".SulawesiTengah" />
+        <activity android:name=".SulawesiTenggara" />
+        <activity android:name=".SulawesiUtara" />
+        <activity android:name=".SumateraBarat" />
+        <activity android:name=".SumateraSelatan" />
+        <activity android:name=".SumateraUtara" />
+        <activity android:name=".Yogyakarta" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".HighestScoreActivity" />
+        <activity android:name=".KuisParent" />
+        <activity android:name=".KuisEssay" />
+        <activity android:name=".HasilSkoring"/>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

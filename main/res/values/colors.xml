@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f3f3f</color>
+    <color name="colorPrimaryDark">#ed3838</color>
+    <color name="colorAccent">#000</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#fc5353</color>
+    <color name="bg_screen2">#ff6344</color>
+    <color name="bg_screen3">#fc5f8c</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#7C2929</color>
+    <color name="dot_dark_screen2">#7F3122</color>
+    <color name="dot_dark_screen3">#7C2F45</color>
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#FC8686</color>
+    <color name="dot_light_screen2">#ff9b87</color>
+    <color name="dot_light_screen3">#FC97B4</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+
+    <color name="dot_light_screen_baru1">#000</color>
+    <color name="dot_light_screen_baru2">#000</color>
+    <color name="dot_light_screen_baru3">#000</color>
+    <color name="dot_light_screen_baru4">#000</color>
+    <color name="dot_light_screen_baru5">#000</color>
+    <color name="dot_light_screen_baru6">#000</color>
+    <color name="dot_light_screen_baru7">#000</color>
+    <color name="dot_light_screen_baru8">#000</color>
+    <color name="dot_light_screen_baru9">#000</color>
+    <color name="dot_light_screen_baru10">#000</color>
+    <color name="dot_light_screen_baru11">#000</color>
+    <color name="dot_light_screen_baru12">#000</color>
+
+    <color name="dot_dark_screen_baru1">#A9A9A9</color>
+    <color name="dot_dark_screen_baru2">#A9A9A9</color>
+    <color name="dot_dark_screen_baru3">#A9A9A9</color>
+    <color name="dot_dark_screen_baru4">#A9A9A9</color>
+    <color name="dot_dark_screen_baru5">#A9A9A9</color>
+    <color name="dot_dark_screen_baru6">#A9A9A9</color>
+    <color name="dot_dark_screen_baru7">#A9A9A9</color>
+    <color name="dot_dark_screen_baru8">#A9A9A9</color>
+    <color name="dot_dark_screen_baru9">#A9A9A9</color>
+    <color name="dot_dark_screen_baru10">#A9A9A9</color>
+    <color name="dot_dark_screen_baru11">#A9A9A9</color>
+    <color name="dot_dark_screen_baru12">#A9A9A9</color>
+
+    <array name="array_dot_activebaru">
+        <item>@color/dot_light_screen_baru1</item>
+        <item>@color/dot_light_screen_baru2</item>
+        <item>@color/dot_light_screen_baru3</item>
+        <item>@color/dot_light_screen_baru4</item>
+        <item>@color/dot_light_screen_baru5</item>
+        <item>@color/dot_light_screen_baru6</item>
+        <item>@color/dot_light_screen_baru7</item>
+        <item>@color/dot_light_screen_baru8</item>
+        <item>@color/dot_light_screen_baru9</item>
+        <item>@color/dot_light_screen_baru10</item>
+        <item>@color/dot_light_screen_baru11</item>
+        <item>@color/dot_light_screen_baru12</item>
+    </array>
+
+    <array name="array_dot_inactivebaru">
+        <item>@color/dot_dark_screen_baru1</item>
+        <item>@color/dot_dark_screen_baru2</item>
+        <item>@color/dot_dark_screen_baru3</item>
+        <item>@color/dot_dark_screen_baru4</item>
+        <item>@color/dot_dark_screen_baru5</item>
+        <item>@color/dot_dark_screen_baru6</item>
+        <item>@color/dot_dark_screen_baru7</item>
+        <item>@color/dot_dark_screen_baru8</item>
+        <item>@color/dot_dark_screen_baru9</item>
+        <item>@color/dot_dark_screen_baru10</item>
+        <item>@color/dot_dark_screen_baru11</item>
+        <item>@color/dot_dark_screen_baru12</item>
+    </array>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f6f6f6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:foregroundGravity="center"
+                android:background="#e03531">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/akor_ckres_for_chord"
+                    android:textSize="40sp"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="end"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_info_black"
+                android:onClick="Titit" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ckres_major" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="bunyiCkresmajor"
+                    android:id="@+id/bunyi_ckres_major"
+                    android:layout_width="60dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/ic_audio_red"
+                    />
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/jari_akor"
+                    android:layout_marginStart="210dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

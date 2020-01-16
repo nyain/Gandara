@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChordDaerah">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#009688"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_aceh"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_aceh"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_bali"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_bali" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_banten"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_banten" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_bengkulu"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_bengkulu" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_gorontalo"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_prov_gorontalo" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_irian"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_papua" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_irian_barat"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_papuabar" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_jakarta"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_jkt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_jambi"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_prov_jambi" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_jawa_barat"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_jabar" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_jawa_tengah"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_jateng" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_jawa_timur"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_jatim" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_kalimantan_barat"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_kalbar" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_kalimantan_selatan"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_kalsel" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_kalimantan_tengah"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_kalteng" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_kalimantan_timur"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_kaltim" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_kalimantan_utara"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_kalut" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_kepulauan_bangka_belitung"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_bangka_belitung" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_kepulauan_riau"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_kep_riau" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_lampung"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_lampung" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_maluku"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_prov_maluku" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_maluku_utara"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_maluut" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_nusa_tenggara_barat"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_ntb" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_nusa_tenggara_timur"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_ntt" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_riau"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_prov_riau" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_sulawesi_barat"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_sulabar" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_sulawesi_selatan"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_sulasel" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_sulawesi_tengah"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_sulateng" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_sulawesi_tenggara"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_sulatenggara" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_sulawesi_utara"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_sulaut" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_sumatera_barat"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_sumatera_barat" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_sumatera_selatan"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_sumatera_selatan" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:id="@+id/daerah_sumatera_utara"
+                            android:layout_width="97dp"
+                            android:layout_height="115dp"
+                            android:background="@drawable/ic_sumatera_utara" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1.0"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:id="@+id/daerah_yogyakarta"
+                        android:layout_width="97dp"
+                        android:layout_height="115dp"
+                        android:layout_marginStart="18dp"
+                        android:background="@drawable/ic_jogja" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/balikdaerah"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_back" />
+
+    <ImageView
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="55dp"
+        android:layout_width="310dp"
+        android:layout_height="145dp"
+        android:background="@drawable/banner_chord_daerah"/>
+
+</RelativeLayout>

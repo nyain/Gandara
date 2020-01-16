@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guitar">
+
+    <LinearLayout
+        android:layout_marginTop="105dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginStart="5dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/empat_per_empat" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="225dp"
+                            android:layout_height="85dp"
+                            android:layout_gravity="center"
+                            android:text="@string/penjelasan_44"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:onClick="empatPer4"
+                            android:id="@+id/empat_per_4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_play"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="@drawable/customborder"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginStart="5dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/satu_per_dua" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="225dp"
+                            android:layout_height="85dp"
+                            android:layout_gravity="center"
+                            android:text="@string/penjelasan_12"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+
+                        <Button
+                            android:layout_gravity="center"
+                            android:onClick="satuPer2"
+                            android:id="@+id/satu_per_2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_play" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="@drawable/customborder"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginStart="5dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/satu_per_empat" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="225dp"
+                            android:layout_height="85dp"
+                            android:layout_gravity="center"
+                            android:text="@string/penjelasan_14"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:layout_gravity="center"
+                            android:background="@drawable/btn_play"
+                            android:onClick="satuPerempat"
+                            android:id="@+id/satu_per_4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="@drawable/customborder"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginStart="5dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/satu_per_delapan" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_width="225dp"
+                            android:layout_height="85dp"
+                            android:layout_gravity="center"
+                            android:text="@string/penjelasan_18"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:onClick="satuper8"
+                            android:id="@+id/satu_per_8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_play"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="@drawable/customborder"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+                    <ImageView
+                        android:layout_marginStart="5dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/satu_per_enambelas" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_width="225dp"
+                        android:layout_height="85dp"
+                        android:layout_gravity="center"
+                        android:text="@string/penjelasan_116"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:onClick="satuper16"
+                        android:id="@+id/satu_per_16"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_play"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

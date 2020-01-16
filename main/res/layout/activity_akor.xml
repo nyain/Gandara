@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="96dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:onClick="majorClick"
+                    android:id  ="@+id/major"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/btn_major"
+                    android:layout_marginHorizontal="5dp"/>
+                <ImageView
+                    android:onClick="minorClick"
+                    android:id="@+id/minor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_minor"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="5dp"/>
+                <ImageView
+                    android:onClick="fiveClick"
+                    android:id="@+id/akor5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_5"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="5dp"/>
+                <ImageView
+                    android:onClick="sevenClick"
+                    android:id="@+id/akor7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_7"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="5dp"/>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
